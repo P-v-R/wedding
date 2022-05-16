@@ -1,9 +1,12 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
+
+
 
 function Header() {
+  
   return (
-    <div className="border-b border-black top-0 sticky py-6 bg-base">
-      navbar
+    <div  className="border-b border-black top-0 pt-2 pb-4 overflow-y-clip z-10 bg-base">
+      <p class="text-4xl text-darkGreen">Anne & Perry</p>
     </div>
   )
 }

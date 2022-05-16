@@ -7,7 +7,7 @@ import RoutesTree from './RoutesTree'
 function App() {
   return (
     <div className="App">
-      <Header class="sticky z-20" />
+      <Header className="z-20" />
       <RoutesTree />
     </div>
   );
