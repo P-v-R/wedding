@@ -1,5 +1,6 @@
 import React from "react";
 import StickyBox from "react-sticky-box";
+import SideNav from './SideNav.js'
 
 function HomePage() {
   return (
@@ -10,14 +11,7 @@ function HomePage() {
       </div>
       <div className="border-l">
       <StickyBox style={{backgroundColor: "#48704f" }}>
-        <div className="grid grid-cols-1 text-base text-3xl h-screen">
-          <div className="hover:underline my-auto pt-10 ">menu</div>
-          <div className="hover:underline my-auto sticky">menu</div>
-          <div className="hover:underline my-auto sticky">menu</div>
-          <div className="hover:underline my-auto sticky">menu</div>
-          <div className="hover:underline my-auto sticky">menu</div>
-          <div className="hover:underline my-auto sticky"></div>
-        </div>
+        <SideNav />
       </StickyBox>
       </div>
     </div>
