@@ -2,6 +2,9 @@
   text-align: center;
   background-color: #f6f4ef;
   min-height: 100vh;
+  font-family: 'BV Celine';
+  font-weight: normal;
+  font-style: normal;
 }
 
 .App-logo {
@@ -14,3 +17,5 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+

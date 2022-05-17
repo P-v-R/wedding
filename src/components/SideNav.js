@@ -2,13 +2,13 @@ import React from "react";
 
 function SideNav() {
   return (
-        <div className="grid grid-cols-1 text-base text-3xl h-screen">
-          <div className="hover:underline my-auto pt-10 ">menu</div>
-          <div className="hover:underline my-auto sticky">menu</div>
-          <div className="hover:underline my-auto sticky">menu</div>
-          <div className="hover:underline my-auto sticky">menu</div>
-          <div className="hover:underline my-auto sticky">menu</div>
-          <div className="hover:underline my-auto sticky"></div>
+        <div className="grid grid-cols-1 text-base text-3xl h-screen z-10">
+          <div className="hover:border-b-2 hover:border-base pb-2 cursor-pointer md:mx-14 border-b-2 border-darkGreen my-auto pt-10 ">Where & When</div>
+          <div className="hover:border-b-2 hover:border-base pb-2 cursor-pointer md:mx-14 border-b-2 border-darkGreen my-auto sticky">The Weekend</div>
+          <div className="hover:border-b-2 hover:border-base pb-2 cursor-pointer md:mx-14 border-b-2 border-darkGreen my-auto sticky">Registry</div>
+          <div className="hover:border-b-2 hover:border-base pb-2 cursor-pointer md:mx-14 border-b-2 border-darkGreen my-auto sticky">Us</div>
+          <div className="hover:border-b-2 hover:border-base pb-2 cursor-pointer md:mx-14 border-b-2 border-darkGreen my-auto sticky">Other</div>
+          <div className="hover:border-b-2  my-auto sticky"></div>
         </div>
   )
 }
