@@ -2,7 +2,7 @@ import React from "react";
 
 function HotelLogo() {
   return (
-    <div className="flex w-4/5 mx-auto pt-10">
+    <div className="flex w-4/5 mx-auto pt-24">
       <svg viewBox="0 0 445 294" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           fillRule="evenodd"

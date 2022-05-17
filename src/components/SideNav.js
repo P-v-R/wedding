@@ -7,7 +7,7 @@ function SideNav() {
           <div className="hover:border-b-2 hover:border-base pb-2 cursor-pointer md:mx-14 border-b-2 border-darkGreen my-auto sticky">The Weekend</div>
           <div className="hover:border-b-2 hover:border-base pb-2 cursor-pointer md:mx-14 border-b-2 border-darkGreen my-auto sticky">Registry</div>
           <div className="hover:border-b-2 hover:border-base pb-2 cursor-pointer md:mx-14 border-b-2 border-darkGreen my-auto sticky">Us</div>
-          <div className="hover:border-b-2 hover:border-base pb-2 cursor-pointer md:mx-14 border-b-2 border-darkGreen my-auto sticky">Other</div>
+          <div className="hover:border-b-2 hover:border-base pb-2 cursor-pointer md:mx-14 border-b-2 border-darkGreen my-auto sticky">Lagniappe</div>
           <div className="hover:border-b-2  my-auto sticky"></div>
         </div>
   )
