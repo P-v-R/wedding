@@ -3,7 +3,7 @@ import StickyBox from "react-sticky-box";
 import SideNav from './SideNav.js'
 import WhereAndWhen from "./WhereAndWhen.js";
 import BodyOne from "./BodyOne.js";
-import BodyTwo from "./BodyTwo.js";
+import Registry from "./Registry.js";
 import LandingAnimation from "./LandingAnimation.js";
 
 function HomePage() {
@@ -13,7 +13,7 @@ function HomePage() {
         <LandingAnimation/>
         <WhereAndWhen/>
         <BodyOne/>
-        <BodyTwo/>
+        <Registry/>
       </div>
       <div className="border-l hidden md:block">
       <StickyBox style={{backgroundColor: "#48704f" }}>
