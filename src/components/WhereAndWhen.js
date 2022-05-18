@@ -18,12 +18,14 @@ function WhereAndWhen() {
         </Parallax>
       </div>
       <div className="md:hidden">
+        <Parallax speed={5}>
           <HotelLogo />
           <div className="mx-auto text-base">
             <div className="bg-base mt-12 pt-4 pb-20 z-20">
-              <div className="text-4xl text-darkGreen">October 2023</div>
+              <div className="text-3xl md:text-4xl text-darkGreen">October 2023</div>
             </div>
           </div>
+        </Parallax>
       </div>
 
     </div>

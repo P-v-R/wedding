@@ -2,8 +2,8 @@ import React from "react";
 
 function HotelLogo() {
   return (
-    <div className="flex w-4/5 mx-auto pt-24">
-      <svg viewBox="0 0 445 294" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div className="flex mx-auto pt-24">
+      <svg className="mx-auto w-4/5 h-4/5" viewBox="0 0 445 294" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
         <path
           fillRule="evenodd"
           clipRule="evenodd"

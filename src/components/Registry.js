@@ -2,10 +2,10 @@ import React from "react";
 
 function Registry() {
   return (
-    <div className="bg-base py-20">
+    <div className="bg-base py-20 text-darkGreen">
       <div className="grid grid-cols-2 place-items-center gap-4">
         {/* registry one */}
-        <div className="text-4xl my-20 md:my-44">Link To Registry</div>
+        <div className="text-2xl md:text-2xl md:text-4xl my-12 md:my-20 md:my-44">Link To Registry</div>
         <div className="">
           <svg
             className="w-20"
@@ -37,9 +37,9 @@ function Registry() {
             />
           </svg>
         </div>
-        <div className="text-4xl my-20 md:my-44">Link To Registry</div>
+        <div className="text-2xl md:text-4xl my-12 md:my-20 md:my-44">Link To Registry</div>
         {/* registry Three */}
-        <div className="text-4xl my-20 md:my-44">Link To Registry</div>
+        <div className="text-2xl md:text-4xl my-12 md:my-20 md:my-44">Link To Registry</div>
         <div className="">
           <svg
             className="w-32"

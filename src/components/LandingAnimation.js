@@ -23,7 +23,7 @@ function LandingAnimation() {
       <p className="py-10">Are Getting Married!</p>
       <div className="">
         <svg
-          className="mx-auto w-1/4"
+          className="mx-auto w-1/3 md:w-1/4"
           viewBox="0 0 65 90"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -44,9 +44,8 @@ function LandingAnimation() {
             strokeWidth="0.5"
           />
         </svg>
-
         <div className="md:hidden">
-          <div className="grid grid-cols-2 pt-40 text-xl bg-darkGreen text-base">
+          <div className="grid grid-cols-2 pt-28 gap-4 text-xl bg-darkGreen text-base">
             <div className="">Where & When</div>
             <div className="">The Weekend</div>
             <div className="">Registry</div>
