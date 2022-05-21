@@ -10,19 +10,29 @@ import PromoVideo from "./PromoVideo.js";
 
 function HomePage() {
   return (
-    <div className="grid grid-cols-5 sticky fixed">
-      <div className="md:col-span-4 col-span-4">
+    <div>
+      <div className="hidden md:flex">
+        <div className="wrapper">
+          <div className="main">
+            <LandingAnimation />
+            <WhereAndWhen />
+            <PromoVideo />
+            <BodyOne />
+            <TheWeekend />
+            <Registry />
+          </div>
+          <div className="sidebar hidden md:flex">
+            <SideNav />
+          </div>
+        </div>
+      </div>
+      <div className="md:hidden">
         <LandingAnimation />
-        <WhereAndWhen />
         <PromoVideo />
+        <WhereAndWhen />
         <BodyOne />
         <TheWeekend />
         <Registry />
-      </div>
-      <div className="border-l hidden md:block">
-        <StickyBox style={{ backgroundColor: "#48704f" }}>
-          <SideNav />
-        </StickyBox>
       </div>
     </div>
   );

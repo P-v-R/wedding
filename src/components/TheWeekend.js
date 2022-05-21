@@ -6,28 +6,28 @@ import { Parallax } from "react-scroll-parallax";
 
 const doubleLine = (
   <div>
-    <div className="border-b border-pink mx-20 py-1"></div>
-    <div className="border-b border-pink mx-20 py-1"></div>
+    <div className="border-b border-pink md:mx-20 py-1"></div>
+    <div className="border-b border-pink md:mx-20 py-1"></div>
   </div>
 );
 
 function TheWeekend() {
   return (
     <div>
-      <div className="hidden md:block text-darkGreen">
+      <div className="text-darkGreen ">
         <Parallax speed={10}>
-          <div className="border-2 border-pink mx-10 my-10">
-            <div className="border-2 border-pink mx-4 my-4  px-10 bg-base">
-              <p className="text-5xl pb-2 pt-10">Friday</p>
-              <p className="text-2xl pb-4">
+          <div className="border-2 border-pink mx-4 md:mx-10 my-10">
+            <div className="border-2 border-pink mx-1 md:mx-4 my-1 md:my-4 px-10 bg-base">
+              <p className="text-3xl md:text-5xl pb-2 pt-10">Friday</p>
+              <p className="text-lg md:text-2xl pb-4">
                 Lorem ipsum dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat non proident, sunt in culpa qui officia deserunt
                 mollit anim id est laborum.{" "}
               </p>
               {doubleLine}
-              <p className="text-5xl pb-2 pt-6">Saturday</p>
-              <p className="text-2xl pb-4">
+              <p className="text-3xl md:text-5xl pb-2 pt-6">Saturday</p>
+              <p className="text-lg md:text-2xl pb-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -37,8 +37,8 @@ function TheWeekend() {
                 sunt in culpa qui officia deserunt mollit anim id est laborum.{" "}
               </p>
               {doubleLine}
-              <p className="text-5xl pb-2 pt-6">Sunday</p>
-              <p className="text-2xl pb-4 mb-10">
+              <p className="text-3xl md:text-5xl pb-2 pt-6">Sunday</p>
+              <p className="text-lg md:text-2xl pb-4 mb-10">
                 Lorem ipsum dolor sit amet, in voluptate velit esse cillum
                 dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat non proident, sunt in culpa qui officia deserunt

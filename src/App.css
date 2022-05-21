@@ -18,4 +18,22 @@
   }
 }
 
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.main {
+  width: 80%;
+}
+
+.sidebar {
+  width: 20%;
+  height: 100vh;
+}
 

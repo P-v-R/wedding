@@ -2,11 +2,11 @@ import React from "react";
 
 function HotelLogo() {
   return (
-    <div className="mx-auto text-darkGreen pt-10">
-      <p className="text-5xl pt-2">Preservation Hall</p>
-      <p className="text-5xl pt-2">&</p>
-      <p className="text-5xl">Brennans</p>
-      <p className="text-2xl pb-10 pt-2">New Orleans, louisiana</p>
+    <div className="mx-auto text-darkGreen pt-4 md:pt-10">
+      <p className="text-2xl md:text-5xl pt-2">Preservation Hall</p>
+      <p className="text-2xl md:text-5xl pt-1 md:pt-2">&</p>
+      <p className="text-2xl md:text-5xl">Brennans</p>
+      <p className="text-lg md:text-2xl pb-10 pt-2">New Orleans, Louisiana</p>
       <svg
         className="w-32 mx-auto"
         viewBox="0 0 85 58"
@@ -28,7 +28,7 @@ function HotelLogo() {
           stroke="#2C5234"
         />
       </svg>
-      <p className="text-3xl py-10">October 21st 2023</p>
+      <p className="text-xl md:text-2xl py-10">October 21st 2023</p>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import { Parallax } from "react-scroll-parallax";
 
 function BodyOne() {
   return (
-    <div className="bg-pink py-64 text-base text-5xl">
+    <div className="bg-pink py-64 text-base text-3xl md:text-5xl">
       <Parallax speed={7}>
         <p className="pb-6">King</p>
 
