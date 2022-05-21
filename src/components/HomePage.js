@@ -1,5 +1,5 @@
 import React from "react";
-import StickyBox from "react-sticky-box";
+// import StickyBox from "react-sticky-box";
 import SideNav from "./SideNav.js";
 import WhereAndWhen from "./WhereAndWhen.js";
 import BodyOne from "./BodyOne.js";
