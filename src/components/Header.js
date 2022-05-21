@@ -9,8 +9,11 @@ function Header() {
   }
 
   return (
-    <div className="md:border-b md:border-black pt-2 md:pb-4 bg-base text-darkGreen">
-      <p onClick={menuClicked} className="text-4xl md:text-6xl text-darkGreen pb-2">
+    <div className="fixed sticky z-40 md:border-b md:border-black pt-2 md:pb-4 bg-base text-darkGreen">
+      <p
+        onClick={menuClicked}
+        className="text-4xl md:text-6xl text-darkGreen pb-2"
+      >
         Anne & Perry
       </p>
     </div>
