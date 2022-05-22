@@ -9,7 +9,7 @@ const RoutesTree = () => {
     <div>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/us" element={<Us />} />
+        <Route path="us" element={<Us />} />
       </Routes>
     </div>
   )
