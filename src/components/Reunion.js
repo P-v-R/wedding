@@ -11,11 +11,11 @@ function Reunion() {
       className=""
     >
       <p className="text-4xl pb-1">The Reunion - 2017</p>
-      <p className="text-xl pb-1 w-2/5 mx-auto">
+      <p className="text-xl pb-1 md:w-2/5 mx-auto">
         Anne moved to Los Angeles after college, Perry already lived there.
         Michelle King made it happen.
       </p>
-      <div className="md:w-1/3 mx-auto">
+      <div className="w-full md:w-1/3 mx-auto px-4">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
