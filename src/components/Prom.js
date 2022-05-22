@@ -9,7 +9,7 @@ function Prom() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 2 }}
+          transition={{ delay: 1.2 }}
           className="border w-3/4 md:w-2/3 p-2 rounded-xl text-left my-2 bg-lightPink"
         >
           yeaah i am! i dont have a date since i broke up with my boyfriend, but

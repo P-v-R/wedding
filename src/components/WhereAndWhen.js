@@ -7,7 +7,7 @@ import { Parallax } from "react-scroll-parallax";
 function WhereAndWhen() {
   return (
     <div>
-      <div className="hidden md:block text-darkGreen">
+      <div id="where" className="hidden md:block text-darkGreen">
         <Parallax speed={10}>
           <div className="border-2 mx-10 my-10">
             <div className="border-2 mx-4 my-4 bg-base">
