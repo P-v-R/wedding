@@ -18,7 +18,7 @@ function Prom() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 8 }}
+          transition={{ delay: 4 }}
           className="border w-3/4 md:w-2/3 p-2 rounded-xl text-left ml-auto my-2 bg-skyBlue"
         >
           Oh im sure you can. It cant be to hard for you to find a prom date!
@@ -28,7 +28,7 @@ function Prom() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 12 }}
+          transition={{ delay: 7 }}
           className="border w-3/4 md:w-2/3 p-2 rounded-xl text-left my-2 bg-lightPink"
         >
           haha youre sweet thanks! you would be surprised! haha you would think
@@ -38,7 +38,7 @@ function Prom() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 16 }}
+          transition={{ delay: 10 }}
           className="border w-3/4 md:w-2/3 p-2 rounded-xl text-left ml-auto my-2 bg-skyBlue"
         >
           Yeah i know how the whole friends in relationships is. it sucks but
@@ -48,7 +48,7 @@ function Prom() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 20 }}
+          transition={{ delay: 13 }}
           className="border w-3/4 md:w-2/3 p-2 rounded-xl text-left my-2 bg-lightPink"
         >
           haha oh thanks! We were trying to come up with dates for me and my
@@ -58,7 +58,7 @@ function Prom() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 22 }}
+          transition={{ delay: 15 }}
           className="border w-3/4 md:w-2/3 p-2 rounded-xl text-left ml-auto my-2 bg-skyBlue"
         >
           yeah when ever I talk to someone before bed i tend to dream about
@@ -68,7 +68,7 @@ function Prom() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 28 }}
+          transition={{ delay: 18 }}
           className="border w-3/4 md:w-2/3 p-2 rounded-xl text-left my-2 bg-lightPink"
         >
           haha i do too! all of the time! well in that case, want to go?
@@ -76,7 +76,7 @@ function Prom() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 30 }}
+          transition={{ delay: 20 }}
           className="border w-3/4 md:w-2/3 p-2 rounded-xl text-left ml-auto my-2 bg-skyBlue"
         >
           I would be honored!
@@ -85,7 +85,7 @@ function Prom() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 32 }}
+          transition={{ delay: 22 }}
           className="border w-3/4 md:w-2/3 p-2 rounded-xl text-left my-2 bg-lightPink"
         >
           haha oh im so glad! its next thursday
@@ -93,7 +93,7 @@ function Prom() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 34 }}
+          transition={{ delay: 23 }}
           className="border w-3/4 md:w-2/3 p-2 pb-1 rounded-xl text-left ml-auto my-2 bg-skyBlue"
         >
           What you doin this weekend??
