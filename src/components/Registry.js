@@ -2,11 +2,11 @@ import React from "react";
 
 function Registry() {
   return (
-    <div id="registry" className="bg-base py-10 text-darkGreen">
-      <div className="grid grid-cols-2 place-items-center gap-4">
+    <div id="registry" className="bg-base py-20 text-darkGreen bg-skyBlue">
+      <div className="grid grid-cols-2 place-items-center gap-4 mx-32 my-10 border-2 bg-base">
         {/* registry one */}
-        <div className="text-2xl md:text-2xl md:text-4xl my-12 md:my-20 md:my-44">
-          Link To Registry
+        <div className="text-2xl md:text-2xl md:text-4xl my-12 md:my-24 ">
+          Link To Registry 1
         </div>
         <div className="">
           <svg
@@ -39,12 +39,12 @@ function Registry() {
             />
           </svg>
         </div>
-        <div className="text-2xl md:text-4xl my-12 md:my-20 md:my-44">
-          Link To Registry
+        <div className="text-2xl md:text-4xl my-12 md:my-20 ">
+          Link To Registry 2
         </div>
         {/* registry Three */}
-        <div className="text-2xl md:text-4xl my-12 md:my-20 md:my-44">
-          Link To Registry
+        <div className="text-2xl md:text-4xl my-12 md:my-20 ">
+          Link To Registry 3
         </div>
         <div className="">
           <svg

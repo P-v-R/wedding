@@ -1,6 +1,7 @@
 import React from "react";
 import HotelLogo from "./HotelLogo.js";
 import { Parallax } from "react-scroll-parallax";
+import { motion } from "framer-motion";
 
 // import StickyBox from "react-sticky-box";
 
@@ -14,7 +15,13 @@ function WhereAndWhen() {
               <HotelLogo />
             </div>
           </div>
-          <div className="mx-20">
+          <motion.div
+            className="mx-20"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.5 }}
+          >
             <p className="text-3xl pb-4">More information</p>
             <p className="text-2xl pb-10">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -25,7 +32,7 @@ function WhereAndWhen() {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.{" "}
             </p>
-          </div>
+          </motion.div>
         </Parallax>
       </div>
       <div className="md:hidden">
