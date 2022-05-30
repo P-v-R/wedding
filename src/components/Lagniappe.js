@@ -2,6 +2,7 @@ import React from "react";
 import GuideNola from "./GuideNola";
 import WeddingParty from "./WeddingParty";
 import { useEffect } from "react";
+import DressCode from "./DressCode";
 
 function HomePage() {
   useEffect(() => {
@@ -34,6 +35,7 @@ function HomePage() {
         </svg>
       </div>
       <div>
+        <DressCode/>
         <GuideNola />
         <WeddingParty />
       </div>

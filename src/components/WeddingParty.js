@@ -13,10 +13,10 @@ function WeddingParty() {
             <div className="grid grid-cols-2">
               <div className="col-span-2 md:col-span-1">
                 <p className="text-3xl md:text-4xl my-4">Hers</p>
-                <p className="text-2xl">Alden King</p>
-                <p className="text-2xl">Jeanne-Marie King</p>
-                <p className="text-2xl">Phoebe Meyers</p>
-                <p className="text-2xl mb-4">Grayson Meyers</p>
+                <p className="text-2xl">Alden Chapman</p>
+                <p className="text-2xl">Jeanne Marie King</p>
+                <p className="text-2xl">Phoebe Myers</p>
+                <p className="text-2xl mb-4">Grayson Myers</p>
               </div>
               <div className="col-span-2 md:col-span-1">
                 <p className="text-3xl md:text-4xl my-4">His</p>

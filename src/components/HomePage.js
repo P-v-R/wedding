@@ -7,6 +7,7 @@ import Registry from "./Registry.js";
 import LandingAnimation from "./LandingAnimation.js";
 import TheWeekend from "./TheWeekend.js";
 import PromoVideo from "./PromoVideo.js";
+import BodyTwo from "./BodyTwo.js";
 
 function HomePage() {
   return (
@@ -19,6 +20,7 @@ function HomePage() {
             <PromoVideo />
             <BodyOne />
             <TheWeekend />
+            <BodyTwo />
             <Registry />
           </div>
           <div className="sidebar hidden md:flex">

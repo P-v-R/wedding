@@ -2,7 +2,7 @@ import React from "react";
 
 function PlaceGuide() {
   return (
-    <div>
+    <div className="pb-10">
       <p className="text-4xl py-4">Places to Stay</p>
       <div className="flex justify-between w-1/2 mx-auto">
         <p className="text-xl py-3 ">place</p>
