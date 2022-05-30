@@ -19,7 +19,7 @@ const pathVariant = {
 
 function LandingAnimation() {
   return (
-    <div className="bg-darkGreen sticky text-base text-5xl h-screen w-screen z-30">
+    <div className="bg-darkGreen sticky text-base text-5xl h-screen w-screen z-10">
       <p className="py-10">Are Getting Married!</p>
       <div className="">
         <svg

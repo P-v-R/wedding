@@ -11,9 +11,8 @@ function BodyOne() {
         viewport={{ once: true }}
         transition={{ delay: 0.75 }}
       >
-        <Parallax speed={7}>
+        <Parallax speed={20}>
           <p className="pb-6">King</p>
-
           <svg
             className="w-1/5 mx-auto"
             viewBox="0 0 85 84"

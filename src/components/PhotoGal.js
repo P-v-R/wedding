@@ -11,7 +11,7 @@ function PhotoGal() {
                 alt="gallery"
                 className="block object-cover object-center w-full h-full"
                 src="https://i.imgur.com/hJ8zyG3.png"
-              />
+              /> 
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img

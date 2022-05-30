@@ -7,9 +7,9 @@ import { motion } from "framer-motion";
 
 function WhereAndWhen() {
   return (
-    <div>
-      <div id="where" className="hidden md:block text-darkGreen">
-        <Parallax speed={10}>
+    <div id="where" className="border-b-2">
+      <div className="hidden md:block text-darkGreen">
+        <Parallax speed={12}>
           <div className="border-2 mx-10 my-10">
             <div className="border-2 mx-4 my-4 bg-base">
               <HotelLogo />
