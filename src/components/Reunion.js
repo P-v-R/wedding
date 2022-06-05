@@ -15,13 +15,13 @@ function Reunion() {
         Anne moved to Los Angeles after college, Perry already lived there.
         Michelle King made it happen.
       </p>
-      <div className="w-full md:w-1/3 mx-auto px-4">
+      <div className="w-full text-lg md:w-1/3 mx-auto px-4">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 3 }}
-          className="border mr-auto w-2/3 p-2 rounded-xl my-2 bg-lightPink text-left"
+          className="border pl-4 mr-auto w-2/3 p-2 rounded-xl my-2 bg-lightPink text-left"
         >
           Happy birthday honey! It's Michelle King. I'm moving Anne into LA in a
           few weeks and I would love to see you!
@@ -32,7 +32,7 @@ function Reunion() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 5 }}
-          className="border ml-auto w-2/3 p-2 rounded-xl my-2 bg-skyBlue text-left"
+          className="border pl-4 ml-auto w-2/3 p-2 rounded-xl my-2 bg-skyBlue text-left"
         >
           I would love that! See you both then ❤️
         </motion.div>
