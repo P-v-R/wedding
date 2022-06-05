@@ -7,6 +7,7 @@ import LandingAnimation from "./LandingAnimation.js";
 import TheWeekend from "./TheWeekend.js";
 import PromoVideo from "./PromoVideo.js";
 import BodyTwo from "./BodyTwo.js";
+import Countdown from "./Countdown.js";
 
 function HomePage() {
   return (
@@ -34,6 +35,7 @@ function HomePage() {
         <TheWeekend />
         <BodyTwo />
         <Registry />
+        <Countdown />
       </div>
     </div>
   );
