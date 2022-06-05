@@ -9,18 +9,18 @@ function WeddingParty() {
           The Wedding Party
         </p>
         <div className="border-2 border-clay mx-4 md:mx-44">
-          <div className="border-2 border-clay m-1">
+          <div className="border-2 border-clay m-1 text-xl md:text-2xl ">
             <div className="grid grid-cols-2">
               <div className="col-span-2 md:col-span-1">
-                <p className="text-3xl md:text-4xl my-4">Hers</p>
-                <p className="text-2xl">Alden Chapman</p>
-                <p className="text-2xl">Jeanne Marie King</p>
-                <p className="text-2xl">Phoebe Myers</p>
-                <p className="text-2xl mb-4">Grayson Myers</p>
+                <p className="text-2xl md:text-3xl md:text-4xl my-4">Hers</p>
+                <p className="">Alden Chapman</p>
+                <p className="">Jeanne Marie King</p>
+                <p className="">Phoebe Myers</p>
+                <p className="mb-4">Grayson Myers</p>
               </div>
               <div className="col-span-2 md:col-span-1">
-                <p className="text-3xl md:text-4xl my-4">His</p>
-                <p className="text-2xl mb-4">Peter von Rosenvinge</p>
+                <p className="text-2xl md:text-3xl md:text-4xl my-4">His</p>
+                <p className="mb-4">Peter von Rosenvinge</p>
               </div>
             </div>
           </div>

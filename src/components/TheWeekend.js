@@ -38,7 +38,7 @@ function TheWeekend() {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
-                transition={{ delay: 0.6 }}
+                transition={{ delay: 0.75 }}
               >
                 <p className="text-3xl md:text-5xl pb-2 pt-6">Saturday</p>
                 <p className="text-lg md:text-2xl pb-4">
@@ -57,7 +57,7 @@ function TheWeekend() {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
-                transition={{ delay: 0.7 }}
+                transition={{ delay: 1.25 }}
               >
                 <p className="text-3xl md:text-5xl pb-2 pt-6">Sunday</p>
                 <p className="text-lg md:text-2xl pb-4 mb-10">

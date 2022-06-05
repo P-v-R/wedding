@@ -32,11 +32,20 @@ const Timer = ({ deadline }) => {
   }, [deadline]);
 
   return (
-    <div className="text-2xl text-darkGreen flex justify-center">
+    <div>
+    <div className="hidden md:flex text-2xl text-darkGreen justify-center">
       <div className="">{leading0(days)} Days</div>
       <div className="mx-4">{leading0(hours)} Hours</div>
       <div className="mx-4">{leading0(minutes)} Minutes</div>
       <div className="">{leading0(seconds)} Seconds</div>
+    </div>
+    <div className="md:hidden text-xl text-darkGreen justify-center">
+      <div className="">{leading0(days)} Days</div>
+      <div className="mx-4">{leading0(hours)} Hours</div>
+      <div className="mx-4">{leading0(minutes)} Minutes</div>
+      <div className="">{leading0(seconds)} Seconds</div>
+    </div>
+
     </div>
   );
 };

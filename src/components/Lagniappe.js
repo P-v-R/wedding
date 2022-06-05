@@ -13,11 +13,11 @@ function HomePage() {
   return (
     <div className="text-darkGreen bg-darkGreen">
       <div className="h-screen">
-        <p className="text-5xl pt-44 text-base ">
+        <p className="text-4xl pt-44 text-base px-1">
           Langiappe - Some helpful things to know!
         </p>
         <svg
-          className="w-1/5 mx-auto mt-20"
+          className="w-3/5 md:w-1/5 mx-auto mt-20"
           viewBox="0 0 57 36"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
