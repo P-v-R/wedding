@@ -6,14 +6,14 @@ import { Link } from "react-router-dom";
 function BodyTwo() {
   return (
     <div>
-      <div className="bg-darkGreen py-64 h-screentext-base text-3xl md:text-5xl hidden md:block">
+      <div className="bg-darkGreen pt-24 h-screen text-base text-3xl md:text-5xl hidden md:block">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 0.75 }}
         >
-          <Parallax speed={10}>
+          <Parallax speed={6}>
             <svg
               className="w-1/3 mx-auto my-20"
               viewBox="0 0 57 36"
@@ -49,7 +49,7 @@ function BodyTwo() {
           </Link>
         </motion.div>
       </div>
-      <div className="bg-darkGreen py-10">
+      <div className="bg-darkGreen py-10 md:hidden">
         <svg
           className="w-1/3 mx-auto my-20"
           viewBox="0 0 57 36"
