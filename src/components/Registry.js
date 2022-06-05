@@ -3,7 +3,7 @@ import React from "react";
 function Registry() {
   return (
     <div id="registry" className="bg-base py-20 text-darkGreen bg-lightPink">
-      <div className="border-2 mx-20 bg-base border-clay">
+      <div className="border-2  mx-4 md:mx-20 bg-base border-clay">
         <div className="grid grid-cols-2 place-items-center gap-4 m-2 border-2 border-clay bg-base">
           {/* registry one */}
           <div className="text-2xl md:text-2xl md:text-4xl my-12 md:my-24 ">
@@ -11,7 +11,7 @@ function Registry() {
           </div>
           <div className="">
             <svg
-              className="w-20"
+              className="w-12 md:w-20"
               viewBox="0 0 82 141"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@ function Registry() {
           {/* registry Two */}
           <div className="">
             <svg
-              className="w-20"
+              className="w-12 md:w-20"
               viewBox="0 0 75 145"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ function Registry() {
           </div>
           <div className="">
             <svg
-              className="w-32"
+              className="w-24 md:w-32"
               viewBox="0 0 85 58"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"

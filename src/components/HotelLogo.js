@@ -3,7 +3,7 @@ import { Parallax } from "react-scroll-parallax";
 
 function HotelLogo() {
   return (
-    <Parallax speed={5}>
+    <Parallax speed={0}>
     <div className="mx-auto text-darkGreen pt-4 md:pt-10">
       <p className="text-2xl md:text-5xl">Brennan's</p>
       <p className="text-lg md:text-2xl pb-10 pt-2">New Orleans, Louisiana</p>
