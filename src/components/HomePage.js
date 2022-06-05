@@ -27,7 +27,7 @@ function HomePage() {
           </div>
         </div>
       </div>
-      <div className="md:hidden">
+      <div className="md:hidden bg-base">
         <LandingAnimation />
         <WhereAndWhen />
         <BodyOne />
