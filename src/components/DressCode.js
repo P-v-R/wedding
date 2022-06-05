@@ -143,7 +143,7 @@ function DressCode() {
         </svg>
 
         <p className="text-4xl py-4">What to Wear</p>
-        <p className="text-lg md:text-2xl md:mx-40 py-6">
+        <p className="text-lg md:text-2xl md:mx-40 py-6 mx-4">
           Tuxedo Shirts, Assless Chaps, Fedoras & Trenchcoats
         </p>
       </Parallax>
