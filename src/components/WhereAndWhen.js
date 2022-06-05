@@ -45,13 +45,9 @@ function WhereAndWhen() {
           <div className="mx-6 text-darkGreen">
             <p className="text-2xl pb-2">More information</p>
             <p className="text-lg pb-10">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.{" "}
+              The ceremony and reception will take place at the New Orleans
+              classic Brennan's. Join us for a sit down dinner, second line
+              around the quarter, and a night of music.
             </p>
           </div>
         </Parallax>

@@ -3,6 +3,8 @@ import GuideNola from "./GuideNola";
 import WeddingParty from "./WeddingParty";
 import { useEffect } from "react";
 import DressCode from "./DressCode";
+import WhereToStay from "./WhereToStay";
+import Countdown from "./Countdown";
 
 function HomePage() {
   useEffect(() => {
@@ -36,8 +38,10 @@ function HomePage() {
       </div>
       <div>
         <DressCode/>
+        <WhereToStay/>
         <GuideNola />
         <WeddingParty />
+        <Countdown/>
       </div>
     </div>
   );

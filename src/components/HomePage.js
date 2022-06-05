@@ -12,7 +12,7 @@ import BodyTwo from "./BodyTwo.js";
 function HomePage() {
   return (
     <div>
-      <div className="hidden md:flex">
+      <div className="hidden md:flex bg-base">
         <div className="wrapper">
           <div className="main">
             <LandingAnimation />
