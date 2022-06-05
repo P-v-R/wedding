@@ -3,8 +3,8 @@ import { Parallax } from "react-scroll-parallax";
 
 function WeddingParty() {
   return (
-    <div className="bg-base py-4 md:py-20">
-      <Parallax speed={10}>
+    <div className="bg-base py-4 pb-10 md:py-20">
+      <Parallax speed={5}>
         <p className="text-4xl md:text-5xl text-darkGreen py-10">
           The Wedding Party
         </p>

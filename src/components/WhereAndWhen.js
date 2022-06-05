@@ -7,9 +7,9 @@ import { motion } from "framer-motion";
 
 function WhereAndWhen() {
   return (
-    <div id="where" className="border-b-2">
+    <div id="where" className="border-b-2 border-darkGreen bg-base">
       <div className="hidden md:block text-darkGreen">
-        <Parallax speed={12}>
+        <Parallax speed={10}>
           <div className="border-2 mx-10 my-10">
             <div className="border-2 mx-4 my-4 bg-base">
               <HotelLogo />
@@ -35,22 +35,20 @@ function WhereAndWhen() {
           </motion.div>
         </Parallax>
       </div>
-      <div className="md:hidden">
-        <Parallax speed={5}>
-          <div className="border-2 border-darkGreen mx-6 my-6">
+      <div className="md:hidden py-6">
+          <div className="border-2 border-darkGreen mx-6">
             <div className="border-2 border-darkGreen mx-1 my-1 bg-base">
               <HotelLogo />
             </div>
           </div>
           <div className="mx-6 text-darkGreen">
-            <p className="text-2xl pb-2">More information</p>
+            <p className="text-2xl py-4">More information</p>
             <p className="text-lg pb-10">
               The ceremony and reception will take place at the New Orleans
               classic Brennan's. Join us for a sit down dinner, second line
               around the quarter, and a night of music.
             </p>
           </div>
-        </Parallax>
       </div>
     </div>
   );

@@ -48,7 +48,12 @@ function LandingAnimation() {
             strokeWidth="0.5"
           />
         </svg>
-        <div className="md:hidden">
+        <motion.div className="md:hidden"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: 3 }}
+          >
           <div className="grid grid-cols-2 pt-28 gap-4 text-xl bg-darkGreen text-base">
             <div className="">Where & When</div>
             <div className="">The Weekend</div>
@@ -56,7 +61,7 @@ function LandingAnimation() {
             <div className="">Lagniappe</div>
             <div className="col-span-2 pb-4">Us</div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
