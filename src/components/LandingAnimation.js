@@ -24,7 +24,7 @@ function LandingAnimation() {
       <p className="py-10">Are Getting Married!</p>
       <div className="pb-36">
         <svg
-          className="mx-auto w-1/3 md:w-1/4"
+          className="mx-auto w-1/2 md:w-1/4"
           viewBox="0 0 65 90"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
