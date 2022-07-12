@@ -198,7 +198,7 @@ function GuideNola() {
         </svg>
       </div>
       <Parallax speed={10} className="hidden md:block">
-        <p className="text-4xl py-6">A Guide To New Orleans</p>
+        <p className="text-3xl py-6">A Guide To New Orleans</p>
         <div className="grid grid-cols-2 md:gap-4 pt-6">
           <div className="border-2 bg-base col-span-2 md:col-span-1 m-4">
             <PlaceGuide />
@@ -212,7 +212,7 @@ function GuideNola() {
         </div>
       </Parallax>
       <div className="md:hidden">
-        <p className="text-4xl py-6">A Guide To New Orleans</p>
+        <p className="text-3xl py-6">A Guide To New Orleans</p>
         <p className="text-xl underline">Download Here</p>
         
       </div>

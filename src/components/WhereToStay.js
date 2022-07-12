@@ -19,8 +19,8 @@ function WhereToStay() {
           />
         </svg>
 
-        <p className="text-4xl py-4">Where to Stay</p>
-        <p className="text-lg md:text-2xl md:mx-40 py-6">
+        <p className="text-3xl py-4">Where to Stay</p>
+        <p className="text-lg md:text-2xl md:mx-40 py-6 px-3">
           Information and links about the two hotel blocks and the neighborhood of the wedding.
         </p>
       </Parallax>

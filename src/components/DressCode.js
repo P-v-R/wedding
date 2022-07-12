@@ -5,8 +5,8 @@ function DressCode() {
   return (
     <div className="bg-lightPink py-24">
       <div className="w-screen absolute hidden md:block">
-      <svg
-          className="ml-auto h-screen opacity-40 -mt-20 -z-10"
+        <svg
+          className="ml-auto w-1/2 2xl:hidden opacity-40 -mt-20 -z-10"
           viewBox="0 0 42 49"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -142,7 +142,7 @@ function DressCode() {
           />
         </svg>
 
-        <p className="text-4xl py-4">What to Wear</p>
+        <p className="text-3xl py-4">What to Wear</p>
         <p className="text-lg md:text-2xl md:mx-40 py-6">
           Tuxedo Shirts, Assless Chaps, Fedoras & Trenchcoats
         </p>

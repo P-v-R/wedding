@@ -12,8 +12,8 @@ function HomePage() {
   }, []);
   return (
     <div className="text-darkGreen bg-darkGreen">
-      <div className="h-screen">
-        <p className="text-4xl pt-44 text-base px-1">
+      <div className="h-screen px-3">
+        <p className="text-3xl pt-44 text-base px-">
           Langiappe - Some helpful things to know!
         </p>
         <svg

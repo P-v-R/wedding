@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function SideNav() {
   return (
-    <div className="bg-base grid grid-cols-1 text-base text-3xl h-screen z-40 text-darkGreen border-l-2 border-darkGreen">
+    <div className="w-full bg-base grid grid-cols-1 text-base text-3xl h-screen z-40 text-darkGreen border-l-2 border-darkGreen">
       <a
         href="#where"
         className="hover:border-b-2 hover:border-darkGreen z-50 pb-2 cursor-pointer md:mx-14 border-b-2 border-base my-auto pt-10 "

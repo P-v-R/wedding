@@ -3,7 +3,7 @@ import movie from "../assets/AP.mp4";
 
 function PromoVideo() {
   return (
-    <div className="">
+    <div className="xl:hidden">
       <video loop autoPlay muted>
         <source src={movie} type="video/mp4" />
       </video>

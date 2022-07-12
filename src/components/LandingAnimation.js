@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const pathVariant = {
   hidden: {
@@ -19,9 +20,9 @@ const pathVariant = {
 
 function LandingAnimation() {
   return (
-    <div className="bg-darkGreen sticky text-base text-5xl h-screen w-screen z-10">
+    <div className="bg-darkGreen sticky text-base text-5xl w-screen z-10">
       <p className="py-10">Are Getting Married!</p>
-      <div className="">
+      <div className="pb-36">
         <svg
           className="mx-auto w-1/3 md:w-1/4"
           viewBox="0 0 65 90"
@@ -36,7 +37,6 @@ function LandingAnimation() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0, duration: 3 }}
-
           />
           <motion.path
             className="animate-pulse"
@@ -48,21 +48,24 @@ function LandingAnimation() {
             strokeWidth="0.5"
           />
         </svg>
-        <motion.div className="md:hidden"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 3 }}
-          >
-          <div className="grid grid-cols-2 pt-28 gap-4 text-xl bg-darkGreen text-base">
-            <div className="">Where & When</div>
-            <div className="">The Weekend</div>
-            <div className="">Registry</div>
-            <div className="">Lagniappe</div>
-            <div className="col-span-2 pb-4">Us</div>
-          </div>
-        </motion.div>
       </div>
+      <motion.div
+        className="md:hidden"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ delay: 2 }}
+      >
+        <div className="bg- z-30 p-10 flex justify-between text-xl px-20">
+          <Link to="/us" className="text-black ">
+            Our Story
+          </Link>
+          <Link to="/lagniappe" className="">
+            Lagniappe
+          </Link>
+ 
+        </div>
+      </motion.div>
     </div>
   );
 }
