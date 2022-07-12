@@ -22,7 +22,7 @@ function LandingAnimation() {
   return (
     <div className="bg-darkGreen sticky text-base text-5xl w-screen z-10">
       <p className="py-10">Are Getting Married!</p>
-      <div className="pb-36">
+      <div className="pb-32">
         <svg
           className="mx-auto w-1/2 md:w-1/4"
           viewBox="0 0 65 90"
@@ -63,7 +63,6 @@ function LandingAnimation() {
           <Link to="/lagniappe" className="">
             Lagniappe
           </Link>
- 
         </div>
       </motion.div>
     </div>
