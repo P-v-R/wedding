@@ -22,6 +22,7 @@ function HomePage() {
             <TheWeekend />
             <BodyTwo />
             <Registry />
+            <Countdown />
           </div>
           <div className="sidebar hidden md:flex">
             <SideNav />

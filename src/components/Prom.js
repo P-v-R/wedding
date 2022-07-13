@@ -7,13 +7,13 @@ function Prom() {
       <p className="text-4xl pb-1">Prom - 2011</p>
       <p className="text-xl pb-4">It all started here!</p>
       <div className="md:w-1/2 mx-auto rounded-md px-10 pb-10 text-lg">
-        <p className="text-gray-400 md:mx-2 pt-4">5/24/11, 5:28 PM</p>
-        <p className="text-gray-400 md:mx-2 pb-4">Facebook Messenger</p>
+        <p className="opacity-50 md:mx-2 pt-4">5/24/11, 5:28 PM</p>
+        <p className="opacity-50 md:mx-2 pb-4">Facebook Messenger</p>
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
-          className="border w-3/4 pl-4 md:w-2/3 p-2 rounded-xl text-left my-2 bg-lightPink"
+          className="border w-3/4 pl-4 md:w-2/3 p-2 rounded-xl text-left my-2 bg-coral"
         >
           yeaah i am! i dont have a date since i broke up with my boyfriend, but
           i hope i can find one in time haha. either way im excited
@@ -32,7 +32,7 @@ function Prom() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 7 }}
-          className="border w-3/4 pl-4 md:w-2/3 p-2 rounded-xl text-left my-2 bg-lightPink"
+          className="border w-3/4 pl-4 md:w-2/3 p-2 rounded-xl text-left my-2 bg-coral"
         >
           haha youre sweet thanks! you would be surprised! haha you would think
           it would be easy, but there are so few people at my school its nearly
@@ -52,7 +52,7 @@ function Prom() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 13 }}
-          className="border w-3/4 pl-4 md:w-2/3 p-2 rounded-xl text-left my-2 bg-lightPink"
+          className="border w-3/4 pl-4 md:w-2/3 p-2 rounded-xl text-left my-2 bg-coral"
         >
           haha oh thanks! We were trying to come up with dates for me and my
           sister mentioned you... probably why you were in my dream??
@@ -72,7 +72,7 @@ function Prom() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 18 }}
-          className="border w-3/4 pl-4 md:w-2/3 p-2 rounded-xl text-left my-2 bg-lightPink"
+          className="border w-3/4 pl-4 md:w-2/3 p-2 rounded-xl text-left my-2 bg-coral"
         >
           haha i do too! all of the time! well in that case, want to go?
         </motion.div>
@@ -89,7 +89,7 @@ function Prom() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 22 }}
-          className="border w-3/4 pl-4 md:w-2/3 p-2 rounded-xl text-left my-2 bg-lightPink"
+          className="border w-3/4 pl-4 md:w-2/3 p-2 rounded-xl text-left my-2 bg-coral"
         >
           haha oh im so glad! its next thursday
         </motion.div>

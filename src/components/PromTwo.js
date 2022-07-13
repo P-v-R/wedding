@@ -28,7 +28,7 @@ function PromTwo() {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <path d="M1 0V251.5" stroke="#48704f" strokeWidth="2" />
+        <path d="M1 0V251.5" stroke="#719259" strokeWidth="2" />
       </svg>
     </motion.div>
   );

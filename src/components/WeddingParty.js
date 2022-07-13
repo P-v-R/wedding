@@ -8,8 +8,8 @@ function WeddingParty() {
         <p className="text-4xl md:text-5xl text-darkGreen py-10">
           The Wedding Party
         </p>
-        <div className="border-2 border-clay mx-4 md:mx-44">
-          <div className="border-2 border-clay m-1 text-xl md:text-2xl ">
+        <div className="border-2 border-papaya mx-4 md:mx-44">
+          <div className="border-2 border-papaya m-1 text-xl md:text-2xl ">
             <div className="grid grid-cols-2">
               <div className="col-span-2 md:col-span-1">
                 <p className="text-2xl md:text-3xl md:text-4xl my-4">Hers</p>

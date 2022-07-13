@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 
 const doubleLine = (
   <div>
-    <div className="border-b border-pink md:mx-20 py-1"></div>
-    <div className="border-b border-pink md:mx-20 py-1"></div>
+    <div className="border-b border-papaya md:mx-20 py-1"></div>
+    <div className="border-b border-papaya md:mx-20 py-1"></div>
   </div>
 );
 
@@ -17,8 +17,8 @@ function TheWeekend() {
     <div>
       <div id="weekend" className="text-darkGreen border-t-2">
         <Parallax speed={10}>
-          <div className="border-2 border-pink mx-4 md:mx-10 my-10">
-            <div className="border-2 border-pink mx-1 md:m-2 my-1 px-10 bg-base">
+          <div className="border-2 border-papaya mx-4 md:mx-10 my-10">
+            <div className="border-2 border-papaya mx-1 md:m-2 my-1 px-10 bg-base">
               <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
