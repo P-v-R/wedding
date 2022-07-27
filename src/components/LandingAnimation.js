@@ -37,7 +37,6 @@ function LandingAnimation() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0, duration: 3 }}
-
           />
           <motion.path
             className="animate-pulse"
@@ -49,18 +48,42 @@ function LandingAnimation() {
             strokeWidth="0.5"
           />
         </svg>
-        <motion.div className="md:hidden"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ delay: 3 }}
-          >
+        <motion.div
+          className="md:hidden"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 3 }}
+        >
           <div className="grid grid-cols-1 pt-10 gap-4 text-xl bg-darkGreen text-base">
-            <Link to="/lagniappe" className="">Lagniappe</Link>
-            <Link to="/us" className=" pb-4">Us</Link>
+            <Link to="/lagniappe" className="">
+              Lagniappe
+            </Link>
+            <Link to="/us" className=" pb-4">
+              Us
+            </Link>
           </div>
         </motion.div>
       </div>
+      <motion.div
+        className="md:hidden"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ delay: 2 }}
+      >
+        <div className="bg-gold z-30 p-10  flex justify-between text-3xl px-10">
+          <Link to="/us" className="">
+            Us
+          </Link>
+          <Link to="/nola" className="">
+            Nola
+          </Link>
+          <Link to="/lagniappe" className="">
+            Lagniappe
+          </Link>
+        </div>
+      </motion.div>
     </div>
   );
 }
