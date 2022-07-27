@@ -56,9 +56,12 @@ function LandingAnimation() {
         viewport={{ once: true }}
         transition={{ delay: 2 }}
       >
-        <div className="bg- z-30 p-10 flex justify-between text-xl px-20">
-          <Link to="/us" className="text-black ">
-            Our Story
+        <div className="bg-gold z-30 p-10  flex justify-between text-3xl px-10">
+          <Link to="/us" className="">
+            Us
+          </Link>
+          <Link to="/nola" className="">
+            Nola
           </Link>
           <Link to="/lagniappe" className="">
             Lagniappe

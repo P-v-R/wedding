@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import HomePage from "./components/HomePage";
 import Us from "./components/Us";
 import Lagniappe from "./components/Lagniappe";
+import Itinerary from "./components/Itinerary";
 
 const RoutesTree = () => {
   return (
@@ -10,7 +11,8 @@ const RoutesTree = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="us" element={<Us />} />
-        <Route path="Lagniappe" element={<Lagniappe />} />
+        <Route path="lagniappe" element={<Lagniappe />} />
+        <Route path="nola" element={<Itinerary />} />
       </Routes>
     </div>
   );
