@@ -2,7 +2,7 @@ import React from "react";
 
 function Registry() {
   return (
-    <div id="registry" className="bg-base py-20 text-darkGreen bg-lightPink">
+    <div id="registry" className="bg-base py-20 text-olive">
       <div className="border-2  mx-4 md:mx-20 bg-base border-olive">
         <div className="grid grid-cols-2 place-items-center gap-4 m-2 border-2 border-olive bg-base">
           {/* registry one */}

@@ -5,7 +5,7 @@ function Prom() {
   return (
     <div>
       <p className="text-4xl pb-1">Prom - 2011</p>
-      <p className="text-xl pb-4">It all started here!</p>
+      <p className="text-xl pb-4">It all started here</p>
       <div className="md:w-1/2 mx-auto rounded-md px-10 pb-10 text-lg">
         <p className="opacity-50 md:mx-2 pt-4">5/24/11, 5:28 PM</p>
         <p className="opacity-50 md:mx-2 pb-4">Facebook Messenger</p>

@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import StickyBox from "react-sticky-box";
 
 function Header() {
   return (
-    <div className="fixed sticky z-40 md:border-b md:border-black pt-2 pb-4 bg-base text-darkGreen">
-      <Link to="/" className="text-4xl md:text-6xl text-darkGreen pb-2">
+    <div className="hidden md:block fixed sticky z-50 md:border-b md:border-black pt-2 pb-4 bg-base text-olive">
+      <Link to="/" className="text-4xl md:text-6xl text-olive pb-2">
         Anne & Perry
       </Link>
     </div>

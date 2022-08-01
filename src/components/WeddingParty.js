@@ -5,7 +5,7 @@ function WeddingParty() {
   return (
     <div className="bg-base py-4 pb-10 md:py-20">
       <Parallax speed={5}>
-        <p className="text-4xl md:text-5xl text-darkGreen py-10">
+        <p className="text-4xl md:text-5xl text-olive py-10">
           The Wedding Party
         </p>
         <div className="border-2 border-papaya mx-4 md:mx-44">

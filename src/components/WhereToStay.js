@@ -19,10 +19,14 @@ function WhereToStay() {
           />
         </svg>
 
-        <p className="text-3xl py-4">Where to Stay</p>
+        <p className="text-4xl md:text-5xl text-olive py-10">Where to Stay</p>
         <p className="text-lg md:text-2xl md:mx-40 py-6 px-3">
-          Information and links about the two hotel blocks and the neighborhood of the wedding.
+          We will have two reserved room blocks in the French Quarter, both within walking distance of Brennan's. Please book your rooms quickly. Hotels in New Orleans fill up often!
         </p>
+        <div className="flex justify-center mx-auto text-2xl">
+        <a className="mx-6 hover:text-coral border-b cursor-pointer">The Monteleone</a>
+        <a className="mx-6 hover:text-coral border-b cursor-pointer">Bienneville House</a>
+        </div>
       </Parallax>
     </div>
   );

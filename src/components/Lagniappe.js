@@ -11,7 +11,7 @@ function HomePage() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="text-darkGreen bg-darkGreen">
+    <div className="text-olive bg-darkGreen">
       <div className="h-screen px-3">
         <p className="text-3xl pt-44 text-base px-">
           Langiappe - Some helpful things to know!

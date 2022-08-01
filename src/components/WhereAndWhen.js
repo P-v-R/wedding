@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 
 function WhereAndWhen() {
   return (
-    <div id="where" className="border-b-2 border-darkGreen bg-base pt-6">
-      <div className="hidden md:block text-darkGreen">
+    <div id="where" className="sticky  z-20 border-b-2 border-darkGreen bg-base pt-6">
+      <div className="hidden md:block text-olive">
         <Parallax speed={10}>
           <div className="border-2 mx-10 my-10">
             <div className="border-2 mx-4 my-4 bg-base">
@@ -41,7 +41,7 @@ function WhereAndWhen() {
               <HotelLogo />
             </div>
           </div>
-          <div className="mx-6 text-darkGreen">
+          <div className="mx-6 text-olive">
             <p className="text-2xl py-4">More information</p>
             <p className="text-lg pb-10">
               The ceremony and reception will take place at the New Orleans

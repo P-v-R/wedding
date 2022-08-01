@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 function BodyOne() {
   return (
-    <div>
+    <div className="z-40">
     <div className="hidden md:block bg-papaya py-64 text-base text-3xl md:text-5xl">
       <motion.div
         initial={{ opacity: 0 }}

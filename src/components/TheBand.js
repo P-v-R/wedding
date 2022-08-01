@@ -22,7 +22,7 @@ function TheBand() {
       </svg>
       <p className="text-4xl pb-1">The Breakup & The Band - 2012</p>
       <p className="text-xl pb-1 px-2">
-        Anne broke his heart, He wrote an album!
+        Anne broke his heart, He wrote an album.
       </p>
       <a
         className="underline text-xl pb-2"

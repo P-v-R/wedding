@@ -1,7 +1,7 @@
 function Itinerary() {
   return (
     <div>
-      <div className="bg-skyBlue h-2/3 md:py-24 text-darkGreen flex justify-center">
+      <div className="bg-skyBlue h-2/3 md:py-24 text-olive flex justify-center">
         <div className="px-10 py-14">
           <p className="text-3xl md:text-4xl ">Wednesday, July 27th</p>
           <div className="text-left pb-2 pt-10 text-xl">
@@ -23,7 +23,7 @@ function Itinerary() {
         </div>
       </div>
 
-      <div className="bg-sorbet h-2/3 md:py-24 text-darkGreen flex justify-center">
+      <div className="bg-sorbet h-2/3 md:py-24 text-olive flex justify-center">
         <div className="px-10 py-14">
           <p className="text-3xl md:text-4xl ">Thursday, July 28th</p>
           <div className="text-left pb-2 pt-10 text-xl">

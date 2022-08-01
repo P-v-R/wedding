@@ -8,11 +8,12 @@ import TheWeekend from "./TheWeekend.js";
 import PromoVideo from "./PromoVideo.js";
 import BodyTwo from "./BodyTwo.js";
 import Countdown from "./Countdown.js";
+import MobileHeader from "./MobileHeader.js";
 
 function HomePage() {
   return (
     <div>
-      <div className="hidden md:flex bg-base">
+      <div className="hidden md:flex bg-base ">
         <div className="wrapper">
           <div className="main">
             <LandingAnimation />
