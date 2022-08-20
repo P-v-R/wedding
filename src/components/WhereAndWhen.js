@@ -7,7 +7,10 @@ import { motion } from "framer-motion";
 
 function WhereAndWhen() {
   return (
-    <div id="where" className="z-40 sticky border-b-2 border-darkGreen bg-base md:-mt-96">
+    <div
+      id="where"
+      className="z-40 sticky border-b-2 border-darkGreen bg-base md:boobs"
+    >
       <div className="hidden md:block text-olive">
         <Parallax speed={10}>
           <div className="border-2 mx-10 my-10">
@@ -22,8 +25,8 @@ function WhereAndWhen() {
             viewport={{ once: true }}
             transition={{ delay: 0.5 }}
           >
-            <p className="text-3xl pb-4">More information</p>
-            <p className="text-2xl pb-10">
+            <p className="text-4xl pb-4">More information</p>
+            <p className="text-2xl mb-36">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -36,19 +39,19 @@ function WhereAndWhen() {
         </Parallax>
       </div>
       <div className="md:hidden py-6">
-          <div className="border-2 border-darkGreen mx-6">
-            <div className="border-2 border-darkGreen mx-1 my-1 bg-base">
-              <HotelLogo />
-            </div>
+        <div className="border-2 border-darkGreen mx-6">
+          <div className="border-2 border-darkGreen mx-1 my-1 bg-base">
+            <HotelLogo />
           </div>
-          <div className="mx-6 text-olive">
-            <p className="text-2xl py-4">More information</p>
-            <p className="text-lg pb-10">
-              The ceremony and reception will take place at the New Orleans
-              classic Brennan's. Join us for a sit down dinner, second line
-              around the quarter, and a night of music.
-            </p>
-          </div>
+        </div>
+        <div className="mx-6 text-olive">
+          <p className="text-2xl py-4">More information</p>
+          <p className="text-lg pb-10">
+            The ceremony and reception will take place at the New Orleans
+            classic Brennan's. Join us for a sit down dinner, second line around
+            the quarter, and a night of music.
+          </p>
+        </div>
       </div>
     </div>
   );

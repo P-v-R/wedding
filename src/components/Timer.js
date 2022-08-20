@@ -34,10 +34,10 @@ const Timer = ({ deadline }) => {
   return (
     <div>
     <div className="hidden md:flex text-2xl text-olive justify-center">
-      <div className="">{leading0(days)} Days</div>
-      <div className="mx-4">{leading0(hours)} Hours</div>
-      <div className="mx-4">{leading0(minutes)} Minutes</div>
-      <div className="">{leading0(seconds)} Seconds</div>
+      <div className="px-4">{leading0(days)} Days</div>
+      <div className="px-4">{leading0(hours)} Hours</div>
+      <div className="px-4">{leading0(minutes)} Minutes</div>
+      <div className="px-4">{leading0(seconds)} Seconds</div>
     </div>
     <div className="md:hidden text-xl text-olive justify-center">
       <div className="">{leading0(days)} Days</div>
