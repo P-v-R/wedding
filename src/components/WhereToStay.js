@@ -24,8 +24,8 @@ function WhereToStay() {
           We will have two reserved room blocks in the French Quarter, both within walking distance of Brennan's. Please book your rooms quickly. Hotels in New Orleans fill up often!
         </p>
         <div className="flex justify-center mx-auto text-2xl">
-        <a className="mx-6 hover:text-coral border-b cursor-pointer">The Monteleone</a>
-        <a className="mx-6 hover:text-coral border-b cursor-pointer">Bienneville House</a>
+        <a className="mx-6 hover:text-coral border-b cursor-pointer" href="/">The Monteleone</a>
+        <a className="mx-6 hover:text-coral border-b cursor-pointer" href="/">Bienneville House</a>
         </div>
       </Parallax>
     </div>
