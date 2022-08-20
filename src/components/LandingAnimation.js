@@ -21,7 +21,7 @@ function LandingAnimation() {
   return (
     <div className="bg-darkGreen text-base text-5xl w-screen h-screen z-30">
       <p className="py-10">Are Getting Married!</p>
-      <div className="pb-44">
+      <div className="pb-10 md:pb-44">
         <svg
           className="mx-auto w-1/2 md:w-1/5"
           viewBox="0 0 65 90"
