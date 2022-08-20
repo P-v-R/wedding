@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 
 const pathVariant = {
   hidden: {
@@ -20,11 +19,11 @@ const pathVariant = {
 
 function LandingAnimation() {
   return (
-    <div className="bg-darkGreen sticky text-base text-5xl w-screen z-10">
+    <div className="bg-darkGreen text-base text-5xl w-screen h-screen z-30">
       <p className="py-10">Are Getting Married!</p>
-      <div className="pb-32">
+      <div className="pb-44">
         <svg
-          className="mx-auto w-1/2 md:w-1/4"
+          className="mx-auto w-1/2 md:w-1/5"
           viewBox="0 0 65 90"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -55,8 +54,7 @@ function LandingAnimation() {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ delay: 2 }}
-      >
-      </motion.div>
+      ></motion.div>
     </div>
   );
 }

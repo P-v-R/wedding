@@ -1,36 +1,54 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import SideNav from "./SideNav.js";
 import WhereAndWhen from "./WhereAndWhen.js";
 import BodyOne from "./BodyOne.js";
 import Registry from "./Registry.js";
 import LandingAnimation from "./LandingAnimation.js";
 import TheWeekend from "./TheWeekend.js";
-import PromoVideo from "./PromoVideo.js";
 import BodyTwo from "./BodyTwo.js";
 import Countdown from "./Countdown.js";
-import MobileHeader from "./MobileHeader.js";
+import StickyBox from "react-sticky-box";
+
 
 function HomePage() {
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const handleScroll = () => {
+      const position = window.pageYOffset;
+      setScrollPosition(position);
+  };
+  
+  useEffect(() => {
+      window.addEventListener('scroll', handleScroll, { passive: true });
+  
+      return () => {
+          window.removeEventListener('scroll', handleScroll);
+      };
+  }, []);
+  
+
   return (
     <div>
       <div className="hidden md:flex bg-base ">
-        <div className="wrapper">
-          <div className="main">
-            <LandingAnimation />
+        <div className="">
+          <LandingAnimation />
+          <StickyBox>
+            <SideNav scrollPosition={scrollPosition} />
+          </StickyBox>
+          <div className="w-4/5">
             <WhereAndWhen />
-            <PromoVideo />
             <BodyOne />
             <TheWeekend />
             <BodyTwo />
             <Registry />
             <Countdown />
           </div>
-          <div className="sidebar hidden md:flex">
-            <SideNav />
+          <div className="flex">
+            
           </div>
         </div>
       </div>
       <div className="md:hidden bg-base">
+        {/* <MobileHeader /> */}
         <LandingAnimation />
         <WhereAndWhen />
         <BodyOne />

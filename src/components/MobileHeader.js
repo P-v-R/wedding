@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import StickyBox from "react-sticky-box";
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 function MobileHeader() {
   //state variables for the Modal State
@@ -60,15 +61,33 @@ function MobileHeader() {
               </svg>
             </div>
           </div>
-          <Link to="/us" className="text-4xl md:text-6xl text-olive pb-2 mr-4">
+          {/* <Link to="/us" className="text-4xl md:text-6xl text-olive pb-2 mr-4">
             Us
-          </Link>
-          <Link
+          </Link> */}
+          <motion.a
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0, duration: 0.2 }}
+          href="/us"
+          className="text-4xl md:text-6xl text-olive pb-2 ml-4 cursor-pointer border-b-2 border-base my-auto pt-10"
+        >
+          us
+        </motion.a>
+        <motion.a
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0, duration: 0.3 }}
+          href="/lagniappe"
+          className="text-4xl md:text-6xl text-olive pb-2 ml-4 cursor-pointer border-b-2 border-base my-auto pt-10 "
+        >
+          Lagniappe
+        </motion.a>
+          {/* <Link
             to="/lagniappe"
             className="text-4xl md:text-6xl text-olive pb-2 ml-4"
           >
             Lagniappe
-          </Link>
+          </Link> */}
         </div>
       </StickyBox>
     );
