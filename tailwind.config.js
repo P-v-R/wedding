@@ -25,6 +25,7 @@ module.exports = {
       backgroundImage: {
         flowers: "url('/src/assets/flowers.png')",
         stars: "url('/src/assets/stars.png')",
+        wallpaper: "url('/src/assets/wallpaper.png')",
       },
     },
   },

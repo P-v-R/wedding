@@ -3,7 +3,7 @@ import React from "react";
 function StarBg() {
   return (
     <svg
-      className="md:py-20 absolute md:w-4/5 overflow-visible  md:z-30"
+      className="md:py-20 absolute md:w-4/5 md:z-30"
       viewBox="0 0 5618 6984"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

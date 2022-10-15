@@ -3,7 +3,7 @@ import { Parallax } from "react-scroll-parallax";
 
 function WhereToStay() {
   return (
-    <div className="bg-base py-24">
+    <div className="bg-base py-24 text-olive">
       <Parallax speed={7}>
         <svg
           className="w-28 mx-auto"
@@ -19,13 +19,19 @@ function WhereToStay() {
           />
         </svg>
 
-        <p className="text-4xl md:text-5xl text-olive py-10">Where to Stay</p>
+        <p className="text-4xl md:text-5xl  py-10">Where to Stay</p>
         <p className="text-lg md:text-2xl md:mx-40 py-6 px-3">
-          We will have two reserved room blocks in the French Quarter, both within walking distance of Brennan's. Please book your rooms quickly. Hotels in New Orleans fill up often!
+          We will have two reserved room blocks in the French Quarter, both
+          within walking distance of Brennan's. Please book your rooms quickly.
+          Hotels in New Orleans fill up often!
         </p>
         <div className="flex justify-center mx-auto text-2xl">
-        <a className="mx-6 hover:text-coral border-b cursor-pointer" href="/">The Monteleone</a>
-        <a className="mx-6 hover:text-coral border-b cursor-pointer" href="/">Bienneville House</a>
+          <a className="mx-6 hover:text-coral border-b cursor-pointer" href="/">
+            The Monteleone
+          </a>
+          <a className="mx-6 hover:text-coral border-b cursor-pointer" href="/">
+            Bienneville House
+          </a>
         </div>
       </Parallax>
     </div>
