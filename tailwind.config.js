@@ -20,10 +20,12 @@ module.exports = {
       coral: "#f9b1a2",
       chartreuse: "#b3b355",
     },
-    backgroundImage: {
-
+    backgroundImage: {},
+    extend: {
+      backgroundImage: {
+        flowers: "url('/src/assets/flowers.png')",
+      },
     },
-    extend: {},
   },
   plugins: [],
 };
