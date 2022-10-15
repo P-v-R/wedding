@@ -36,7 +36,7 @@ function SideNav({ scrollPosition }) {
 
   if (!appearIn) {
     return (
-      <div className="ml-auto z-30  w-1/5 bg-base grid grid-cols-1 text-darkGreen text-3xl h-screen z-40 text-base border-l-2 border-darkGreen">
+      <div className="ml-auto z-20 bg-base grid grid-cols-1 text-darkGreen text-3xl h-screen z-10 text-base border-l-2 border-darkGreen">
         <motion.a
           initial={{ opacity: 1 }}
           animate={{ opacity: 0 }}
@@ -93,7 +93,7 @@ function SideNav({ scrollPosition }) {
     );
   } else {
     return (
-      <div className="ml-auto z-10  w-1/5 bg-base grid grid-cols-1 text-darkGreen text-3xl h-screen z-40 text-base border-l-2 border-darkGreen">
+      <div className="ml-auto z-10  w-1/5 bg-base grid grid-cols-1 text-darkGreen text-3xl h-screen text-base border-l-2 border-darkGreen">
         <motion.a
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

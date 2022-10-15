@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import SideNav from "./SideNav.js";
 import WhereAndWhen from "./WhereAndWhen.js";
 import BodyOne from "./BodyOne.js";
@@ -9,22 +9,20 @@ import BodyTwo from "./BodyTwo.js";
 import Countdown from "./Countdown.js";
 import StickyBox from "react-sticky-box";
 
-
 function HomePage() {
   const [scrollPosition, setScrollPosition] = useState(0);
   const handleScroll = () => {
-      const position = window.pageYOffset;
-      setScrollPosition(position);
+    const position = window.pageYOffset;
+    setScrollPosition(position);
   };
-  
+
   useEffect(() => {
-      window.addEventListener('scroll', handleScroll, { passive: true });
-  
-      return () => {
-          window.removeEventListener('scroll', handleScroll);
-      };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
-  
 
   return (
     <div>
@@ -34,16 +32,15 @@ function HomePage() {
           <StickyBox>
             <SideNav scrollPosition={scrollPosition} />
           </StickyBox>
-          <div className="w-4/5">
+          <div className="w-4/5 z-50">
             <WhereAndWhen />
             <BodyOne />
             <TheWeekend />
+          </div>
+          <div className=" w-screen absolute">
             <BodyTwo />
             <Registry />
             <Countdown />
-          </div>
-          <div className="flex">
-            
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ function BodyTwo() {
           transition={{ delay: 0.75 }}
         >
           <Parallax speed={10}>
-            <img className="w-1/2 mx-auto" src={Orange} alt="orange" />
+            <img className="w-1/5 my-10 mx-auto" src={Orange} alt="orange" />
           </Parallax>
         </motion.div>
         <motion.div
@@ -26,7 +26,7 @@ function BodyTwo() {
         >
           <Link
             to="/Lagniappe"
-            className="z-40 hover:border-b-2 hover:border-base cursor-pointer md:mx-14 border-b-2 border-base my-auto text-base text-4xl"
+            className="z-40 hover:border-b-2 hover:border-base cursor-pointer md:mx-14 border-b-2 border-lightPink my-auto text-base text-4xl"
           >
             Places to stay, Things to do.
           </Link>
