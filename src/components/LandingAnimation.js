@@ -1,21 +1,5 @@
 import React from "react";
 
-// const pathVariant = {
-//   hidden: {
-//     opacity: 0,
-//     pathLength: 0,
-//   },
-//   visible: {
-//     opacity: 1,
-//     pathLength: 1,
-//     transition: {
-//       duration: 5,
-//       delay: 1,
-//       ease: "easeInOut",
-//     },
-//   },
-// };
-
 function LandingAnimation() {
   return (
     <div className="bg-darkGreen sticky text-base  text-3xl md:text-5xl w-screen h-screen z-10">
