@@ -35,3 +35,8 @@
     margin-top: -95vh;
   }
 }
+
+@font-face {
+  font-family: 'BV Celine';
+  src: local('BVCelineRegular'), url(./fonts/BVCelineRegular.woff) format('woff');
+}
