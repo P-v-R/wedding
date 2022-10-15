@@ -26,7 +26,7 @@ function HomePage() {
 
   return (
     <div>
-      <div className="hidden md:flex bg-base ">
+      <div className="hidden lg:flex bg-base ">
         <div className="">
           <LandingAnimation />
           <StickyBox>
@@ -37,14 +37,14 @@ function HomePage() {
             <BodyOne />
             <TheWeekend />
           </div>
-          <div className=" w-screen absolute">
+          <div className="w-screen absolute">
             <BodyTwo />
             <Registry />
             <Countdown />
           </div>
         </div>
       </div>
-      <div className="md:hidden bg-base">
+      <div className="lg:hidden bg-base">
         {/* <MobileHeader /> */}
         <LandingAnimation />
         <WhereAndWhen />

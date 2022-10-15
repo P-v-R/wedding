@@ -15,7 +15,7 @@ function HomePage() {
   return (
     <div className="text-olive bg-skyBlue md:bg-skyBlue">
       <div className="h-screen px-3">
-        <div className="hidden md:block pt-4">
+        <div className="hidden lg:block pt-4">
           <TurtleBg />
           <p className="text-4xl pt-24 mx-auto">Langiappe</p>
           <p className="text-3xl pt-2  mx-auto">
@@ -27,7 +27,7 @@ function HomePage() {
             free.
           </p>
         </div>
-        <div className="md:hidden ">
+        <div className="lg:hidden ">
           <p className="text-3xl pt-24 mx-auto">Langiappe</p>
           <p className="text-xl pt-2  mx-auto">
             <em>noun</em> | lan-YAP
