@@ -1,10 +1,16 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 function LandingAnimation() {
   return (
     <div className="bg-darkGreen sticky text-base  text-3xl md:text-5xl w-screen h-screen z-10">
       <p className="py-10">Are Getting Married!</p>
-      <div className="mx-auto px-10 md:px-0">
+      <motion.div
+        className="mx-auto px-10 md:px-0"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ delay: 0.75 }}
+      >
         <svg
           viewBox="0 0 576 309"
           fill="none"
@@ -112,7 +118,7 @@ function LandingAnimation() {
             fill="#fffcec"
           />
         </svg>
-      </div>
+      </motion.div>
     </div>
   );
 }
