@@ -1,5 +1,4 @@
 import React from "react";
-import { Parallax } from "react-scroll-parallax";
 
 function Registry() {
   return (
@@ -72,7 +71,7 @@ function Registry() {
             </svg>
           </div>
         </div>
-      </Parallax>
+      </div>
     </div>
   );
 }
