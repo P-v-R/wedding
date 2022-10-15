@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function LandingAnimation() {
   return (
-    <div className="bg-darkGreen sticky text-base  text-3xl md:text-5xl w-screen h-screen z-10">
+    <div className="bg-darkGreen text-base  text-3xl md:text-5xl w-screen h-screen z-10">
       <p className="py-10">Are Getting Married!</p>
       <motion.div
         className="mx-auto px-10 md:px-0"
