@@ -26,6 +26,7 @@ module.exports = {
         flowers: "url('/src/assets/flowers.png')",
         stars: "url('/src/assets/stars.png')",
         wallpaper: "url('/src/assets/wallpaper.png')",
+        flowerpaper: "url('/src/assets/flowerpaper.png')",
       },
     },
   },
