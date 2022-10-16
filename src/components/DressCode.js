@@ -2,7 +2,7 @@ import React from "react";
 
 function DressCode() {
   return (
-    <div className="bg-lightPink p-10">
+    <div className="bg-lightPink p-6 md:p-10">
       <div className="border-2 border-darkGreen bg-base">
         <div className="border-2 border-darkGreen bg-base m-2">
           <p className="text-4xl md:text-5xl  py-10">What to Wear</p>

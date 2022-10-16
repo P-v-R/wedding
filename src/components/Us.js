@@ -12,7 +12,7 @@ function Us() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="pt-10 bg-base">
+    <div className="pt-10 bg-base bg-flowerpaper">
       <Prom />
       <TheBand />
       <PromTwo />
