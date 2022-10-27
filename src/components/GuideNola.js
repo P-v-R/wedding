@@ -11,20 +11,26 @@ function GuideNola() {
   // ];
 
   const food = [
-    { name: "Irene's", url: "www.google.com" },
-    { name: "Justine", url: "www.google.com" },
-    { name: "Tableau", url: "www.google.com" },
-    { name: "Mr B's", url: "www.google.com" },
+    { name: "Sylvain", url: "https://www.sylvainnola.com/" },
+    { name: "Justine", url: "https://www.justinenola.com/" },
+    { name: "Tableau", url: "https://www.tableaufrenchquarter.com/" },
+    { name: "Cafe Du Monde", url: "https://shop.cafedumonde.com/" },
   ];
 
   const drinks = [
-    { name: "The Carousel Bar", url: "www.google.com" },
-    { name: "thing", url: "www.google.com" },
-    { name: "other thing", url: "www.google.com" },
-    { name: "final thing", url: "www.google.com" },
+    {
+      name: "The Sazerac Bar",
+      url: "https://www.neworleans.com/listing/the-sazerac-restaurant/32153/",
+    },
+    { name: "The Napoleon House", url: "https://www.napoleonhouse.com/" },
+    {
+      name: "Carousel Bar",
+      url: "https://hotelmonteleone.com/entertainment/carousel-bar/",
+    },
+    { name: "Bacchanal", url: "http://www.bacchanalwine.com/" },
   ];
 
-  const guide = [{ name: "Full Guide", url: "www.google.com" }];
+  const guide = [{ name: "Full Guide", url: "https://www.google.com" }];
 
   return (
     <div className="bg-wallpaper bg-fixed p-10 z-20">
@@ -32,7 +38,11 @@ function GuideNola() {
       <Parallax speed={10} className="">
         <div className="grid grid-cols-2 md:gap-4 pt-6">
           <div className="border-2 bg-base col-span-2 md:col-span-1 my-4">
-            <GuideBlock title="Places To Eat" items={food} />
+            <GuideBlock
+              title="Places To Eat"
+              items={food}
+              footer="More in our full guide."
+            />
           </div>
           <div className="border-2 bg-base col-span-2 md:col-span-1 my-4">
             <GuideBlock

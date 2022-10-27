@@ -24,16 +24,17 @@ function TheWeekend() {
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.25 }}
+                className="w-full"
               >
                 <p className="text-3xl md:text-5xl pb-2 pt-10">Friday</p>
-                <p className="text-lg md:text-2xl py-4 w-3/4 mx-auto">
+                <div className="text-lg md:text-2xl py-4 md:w-3/4 mx-auto">
                   Bienvenue! Welcome to New Orleans!
                   <div className="py-2" />
                   <div></div>
                   Please join us for a Welcome Party of beignets and cocktails
                   to kick off the weekend.
-                </p>
-                <p className="text-lg md:text-2xl pt-4 w-3/4 mx-auto font-bold">
+                </div>
+                <p className="text-lg md:text-2xl pt-4 md:w-3/4 mx-auto font-bold">
                   The Bevolo Gas & Electric Lights Museum
                 </p>
                 <p className="text-xl">
@@ -53,12 +54,12 @@ function TheWeekend() {
                 transition={{ delay: 0.75 }}
               >
                 <p className="text-3xl md:text-5xl pb-2 pt-10">Saturday</p>
-                <p className="text-lg md:text-2xl py-4 w-3/4 mx-auto">
+                <p className="text-lg md:text-2xl py-4 md:w-3/4 mx-auto">
                   Please join us for dinner and dancing! Our ceremony and
                   reception will both take place at Brennan's Restaurant.
                 </p>
                 <div className="py-2" />
-                <p className="text-lg md:text-2xl pt-4 w-3/4 mx-auto font-bold">
+                <p className="text-lg md:text-2xl pt-4 md:w-3/4 mx-auto font-bold">
                   Brennan's Restaurant
                 </p>
                 <p className="text-xl">
@@ -69,7 +70,7 @@ function TheWeekend() {
                   6:00PM
                 </p>
                 <p className="italic pb-4">Formal Attire</p>
-                <p className="italic py-4 w-2/4 mx-auto">
+                <p className="italic py-4 md:w-2/4 mx-auto">
                   Please Note: Our stunning venue is within walking distance of
                   both hotels — make sure to accommodate for walking time!
                 </p>
@@ -82,10 +83,10 @@ function TheWeekend() {
                 transition={{ delay: 1.25 }}
               >
                 <p className="text-3xl md:text-5xl pb-2 pt-10">Sunday</p>
-                <p className="text-lg md:text-2xl py-4 w-3/4 mx-auto">
+                <p className="text-lg md:text-2xl py-4 md:w-3/4 mx-auto">
                   Thank you for joining us this weekend to celebrate our love!
                 </p>
-                <p className="text-lg md:text-2xl py-4 mb-10 w-3/4 mx-auto">
+                <p className="text-lg md:text-2xl py-4 mb-10 md:w-3/4 mx-auto">
                   New Orleans is a magical city — we encourage you to extend
                   your stay and explore! If you’re staying on, check out our
                   guide of delicious places to eat and lots of fun things to do

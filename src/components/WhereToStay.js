@@ -21,12 +21,18 @@ function WhereToStay() {
 
         <p className="text-4xl md:text-5xl  py-10">Where to Stay</p>
         <p className="text-lg md:text-2xl md:mx-40 py-6 px-3">
-          We will have two reserved room blocks in the French Quarter, both
-          within walking distance of Brennan's. Please book your rooms quickly.
-          Hotels in New Orleans fill up often!
+          We will have two reserved hotel room blocks in the French Quarter,
+          both within walking distance of Brennan's. Please use the below link
+          or mention the King von Rosenvinge wedding when calling to book your
+          rooms as soon as possible. Hotels in New Orleans fill up quickly -
+          don't wait!
         </p>
         <div className="flex justify-center mx-auto text-2xl">
-          <a className="mx-6 hover:text-coral border-b cursor-pointer" href="/">
+          <a
+            className="mx-6 hover:text-coral border-b cursor-pointer"
+            href="https://be.synxis.com/?adult=1&arrive=2023-10-20&chain=10237&child=0&config=MSYHM&currency=USD&depart=2023-10-22&group=KVR20J&hotel=27003&level=hotel&locale=en-US&rooms=1&theme=MSYHM"
+            target="#"
+          >
             The Monteleone
           </a>
           <a className="mx-6 hover:text-coral border-b cursor-pointer" href="/">
