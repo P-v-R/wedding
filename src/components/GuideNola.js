@@ -30,7 +30,7 @@ function GuideNola() {
     { name: "Bacchanal", url: "http://www.bacchanalwine.com/" },
   ];
 
-  const guide = [{ name: "Full Guide", url: "https://www.google.com" }];
+  const guide = [{ name: "Coming Soon", url: "https://www.google.com" }];
 
   return (
     <div className="bg-wallpaper bg-fixed p-10 z-20">

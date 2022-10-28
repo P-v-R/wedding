@@ -15,7 +15,7 @@ const doubleLine = (
 function TheWeekend() {
   return (
     <div>
-      <div id="weekend" className="text-olive border-t-2 sticky z-50">
+      <div id="weekend" className="text-olive  sticky z-50">
         <Parallax speed={10}>
           <div className="border-2 border-papaya mx-4 md:mx-10 my-10 bg">
             <div className="border-2 border-papaya mx-1 md:m-2 my-1 px-10 bg-base">

@@ -8,6 +8,7 @@ import TheWeekend from "./TheWeekend.js";
 import BodyTwo from "./BodyTwo.js";
 import Countdown from "./Countdown.js";
 import StickyBox from "react-sticky-box";
+import MobileNavBlob from "./MobileNavBlob.js";
 
 function HomePage() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -49,6 +50,7 @@ function HomePage() {
         <LandingAnimation />
         <WhereAndWhen />
         <BodyOne />
+        <MobileNavBlob />
         <TheWeekend />
         <BodyTwo />
         <Registry />

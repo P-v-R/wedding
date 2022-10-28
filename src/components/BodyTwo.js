@@ -33,7 +33,11 @@ function BodyTwo() {
         </motion.div>
       </div>
       <div className="bg-lightPink py-10 md:hidden ">
-        <img className="w-1/2  my-40 mx-auto" src={Orange} alt="orange" />
+        <img
+          className="w-1/2  mt-40 mb-20  mx-auto"
+          src={Orange}
+          alt="orange"
+        />
 
         <motion.div
           initial={{ opacity: 0 }}
@@ -44,7 +48,7 @@ function BodyTwo() {
         >
           <Link
             to="/Lagniappe"
-            className="hover:border-b-2 hover:border-base cursor-pointer border-b-2 border-lightPink text-base text-2xl"
+            className="hover:border-b-2 hover:border-base cursor-pointer border-b-2 border-base text-base text-2xl"
           >
             Places to stay, Things to do.
           </Link>
