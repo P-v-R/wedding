@@ -28,7 +28,7 @@ function BodyTwo() {
             to="/Lagniappe"
             className="z-40 hover:border-b-2 hover:border-base cursor-pointer md:mx-14 border-b-2 border-lightPink my-auto text-base text-4xl"
           >
-            Places to stay, Things to do.
+            Places to stay. Things to do.
           </Link>
         </motion.div>
       </div>
@@ -50,7 +50,7 @@ function BodyTwo() {
             to="/Lagniappe"
             className="hover:border-b-2 hover:border-base cursor-pointer border-b-2 border-base text-base text-2xl"
           >
-            Places to stay, Things to do.
+            Places to stay. Things to do.
           </Link>
         </motion.div>
       </div>

@@ -24,7 +24,7 @@ function PhotoGal() {
               <img
                 alt="gallery"
                 className="block object-cover object-center w-full h-full"
-                src="https://i.imgur.com/QojXind.jpg"
+                src="https://i.imgur.com/nLQM20O.jpg"
                 />
             </div>
           </div>
