@@ -30,7 +30,7 @@ function GuideNola() {
     { name: "Bacchanal", url: "http://www.bacchanalwine.com/" },
   ];
 
-  const guide = [{ name: "Coming Soon", url: "https://www.google.com" }];
+  const guide = [{ name: "Coming Soon", url: "https://www.chuckecheese.com/bootacular/?gclsrc=aw.ds&" }];
 
   return (
     <div className="bg-wallpaper bg-fixed p-10 z-20">
@@ -48,7 +48,7 @@ function GuideNola() {
             <GuideBlock
               title="Places To Drink"
               items={drinks}
-              footer="For the safety of our guests staying in the French Quarters we recommend when not passing Canal street."
+              footer="More in our full guide."
             />
           </div>
           <div className="border-2 bg-base col-span-2 my-4">

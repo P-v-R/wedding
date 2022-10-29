@@ -13,7 +13,7 @@ function MobileNavBlob() {
           transition={{ delay: 1 }}
           className="my-20"
         >
-          <Link to="/us" className=" z-40 text-darkGreen text-4xl">
+          <Link to="/us" className=" z-40 text-darkGreen text-4xl border-b-2 p-4">
             Our Story
           </Link>
         </motion.div>

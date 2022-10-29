@@ -17,8 +17,7 @@ function DressCode() {
           </p>
           <p className="text-xl md:text-2xl md:mx-40 pb-8 px-3 ">
             Festive Attire - Please feel free to come however you feel
-            comfortable, suit & tie are not required, but come dressed in your
-            best festive frocks to kick off the weekend.
+            comfortable, suit & tie are not required.
           </p>
           <p className="text-xl md:text-2xl md:mx-40 pb-4 px-3 font-bold">
             Saturday Night

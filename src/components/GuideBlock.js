@@ -4,7 +4,7 @@ function GuideBlock({ title, items, footer = false }) {
   function item({ name, url, featured = false }, idx) {
     let style = "py-4 hover:text-coral cursor-pointer";
     if (idx % 2 === 0 && items.length - 1 === idx) {
-      style = "py-4 col-span-2 hover:text-chartreuse cursor-pointer";
+      style = "py-4 col-span-2 hover:text-coral cursor-pointer";
     }
 
     return (
