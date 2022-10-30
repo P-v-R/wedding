@@ -13,7 +13,7 @@ function App() {
     );
   }, []);
   return (
-    <div className="App">
+    <div className="App scroll-smooth">
       <ParallaxProvider>
         <Header className="hidden md:block" />
         <MobileHeader className="md:hidden sticky z-40" />
