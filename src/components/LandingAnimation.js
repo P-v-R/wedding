@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 function LandingAnimation() {
   return (
     <div className="bg-darkGreen text-base  text-3xl lg:text-5xl w-screen h-screen z-10">
-      {/* <p className="py-10">Are Getting Married!</p> */}
+      <p className="md:text-3xl pt-10 text-base">10-21-23</p>
       <motion.div
-        className="mx-auto px-10 md:px-0"
+        className=" -mt-20 mx-auto px-10 md:px-0"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.75 }}

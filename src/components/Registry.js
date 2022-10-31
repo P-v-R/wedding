@@ -41,18 +41,28 @@ function Registry() {
           />
         </svg>
         <div className="grid grid-cols-1 md:grid-cols-2">
-        <a
-          className="border-2 p-4 m-5 text-2xl hover:text-lightPink"
-          href="https://www.heathceramics.com/apps/registry/anne-perry-s-wedding?shared_url=true"
-        >
-          Heath Ceramics
-        </a>
-        <a
-          className="border-2 p-4 m-5 text-2xl hover:text-lightPink"
-          href="https://www.heathceramics.com/apps/registry/anne-perry-s-wedding?shared_url=true"
-        >
-          Williams Sonoma
-        </a>
+          <a
+            className="border-2 p-4 m-5 text-2xl hover:text-lightPink"
+            href="https://www.heathceramics.com/apps/registry/anne-perry-s-wedding?shared_url=true"
+          >
+            Heath Ceramics
+          </a>
+          <a
+            className="border-2 p-4 m-5 text-2xl hover:text-lightPink"
+            href="https://www.williams-sonoma.com/registry/59tktd9mkn/registry-list.html"
+          >
+            Williams Sonoma
+          </a>
+
+          <a
+            className="border-2 p-4 m-5 text-2xl hover:text-lightPink"
+            href="https://weezietowels.com/apps/giftregistry/registry/232742?sid=bqpN2HlY7RGswkbj%2F%2B1VuQ"
+          >
+            Weezie Towels
+          </a>
+          <p className="border-2 p-4 m-5 text-2xl" href="">
+            Berings (Coming Soon)
+          </p>
         </div>
         <div className="h-10"></div>
       </div>

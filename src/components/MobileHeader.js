@@ -64,7 +64,7 @@ function MobileHeader() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0, duration: 0.2 }}
             href="/us"
-            className="text-4xl pl-10 text-olive pb-2 mx-4 cursor-pointer border-b-2 border-base my-auto pt-10"
+            className="text-4xl pl-4 text-olive pb-2 mx-4 cursor-pointer border-b-2 border-base my-auto pt-10"
           >
             Us
           </motion.a>
@@ -73,16 +73,10 @@ function MobileHeader() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0, duration: 0.3 }}
             href="/lagniappe"
-            className="text-4xl text-olive pb-2 mx-6 cursor-pointer border-b-2 border-base my-auto pt-10 "
+            className="text-4xl text-olive pb-2  cursor-pointer border-b-2 border-base my-auto pt-10 "
           >
             Lagniappe
           </motion.a>
-          {/* <Link
-            to="/lagniappe"
-            className="text-4xl md:text-6xl text-olive pb-2 ml-4"
-          >
-            Lagniappe
-          </Link> */}
         </div>
       </StickyBox>
     );
