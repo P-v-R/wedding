@@ -35,9 +35,9 @@ function WhereToStay() {
           >
             The Monteleone
           </a>
-          <a className="mx-4 md:p-8 hover:text-coral border-2 p-2 cursor-pointer" href="/">
-            Bienneville House
-          </a>
+          <p className="mx-4 md:p-8 border-2 p-2 cursor-pointer" href="/">
+            Bienneville House (link coming soon)
+          </p>
         </div>
       </Parallax>
     </div>
