@@ -49,6 +49,12 @@ function Registry() {
           </a>
           <a
             className="border-2 p-4 m-5 text-2xl hover:text-lightPink"
+            href="https://nickeykehoe.com/apps/giftregistry/registry/233205"
+          >
+            Nickey Kehoe
+          </a>
+          <a
+            className="border-2 p-4 m-5 text-2xl hover:text-lightPink"
             href="https://www.williams-sonoma.com/registry/59tktd9mkn/registry-list.html"
           >
             Williams Sonoma
@@ -60,9 +66,6 @@ function Registry() {
           >
             Weezie Towels
           </a>
-          <p className="border-2 p-4 m-5 text-2xl" href="">
-            Berings (Coming Soon)
-          </p>
         </div>
         <div className="h-10"></div>
       </div>
