@@ -5,8 +5,9 @@ import { useEffect } from "react";
 import DressCode from "./DressCode";
 import WhereToStay from "./WhereToStay";
 import Countdown from "./Countdown";
-import TurtleBg from "./TurtleBg";
 import Orange from "../assets/oranges.png";
+import StarBgTwo from "./starbgtwo";
+import Turtle from "./Turtle";
 
 function HomePage() {
   useEffect(() => {
@@ -15,8 +16,8 @@ function HomePage() {
   return (
     <div className="text-olive bg-skyBlue md:bg-skyBlue">
       <div className="h-screen px-3">
-        <div className="hidden lg:block pt-4">
-          <TurtleBg />
+        <div className="hidden lg:block md:pt-10 pt-4 bg-starpaper relative">
+          <StarBgTwo />
           <p className="text-4xl pt-24 mx-auto">Langiappe</p>
           <p className="text-3xl pt-2  mx-auto">
             <em>noun</em> | lan-YAP
@@ -26,6 +27,7 @@ function HomePage() {
             to describe something good, or better yet, receiving something for
             free.
           </p>
+          <Turtle />
         </div>
         <div className="lg:hidden ">
           <p className="text-3xl pt-24 mx-auto">Langiappe</p>
