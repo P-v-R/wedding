@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
+import { motion } from "framer-motion";
 import { Parallax } from "react-scroll-parallax";
-
 function WhereToStay() {
+  const [isHovering, setIsHovering] = useState(false);
+
   return (
     <div className="bg-base py-24 text-olive">
       <Parallax speed={7}>
@@ -27,7 +29,7 @@ function WhereToStay() {
           rooms as soon as possible. Hotels in New Orleans fill up quickly -
           don't wait!
         </p>
-        <div className="flex justify-center mx-auto text-2xl">
+        <div className="flex justify-center mx-auto text-2xl relative">
           <a
             className="mx-4 md:p-8 hover:text-coral border-2 p-2 cursor-pointer"
             href="https://be.synxis.com/?adult=1&arrive=2023-10-20&chain=10237&child=0&config=MSYHM&currency=USD&depart=2023-10-22&group=KVR20J&hotel=27003&level=hotel&locale=en-US&rooms=1&theme=MSYHM"
@@ -35,9 +37,44 @@ function WhereToStay() {
           >
             The Monteleone
           </a>
-          <p className="mx-4 md:p-8 border-2 p-2 cursor-pointer" href="/">
-            Bienneville House (coming soon)
+          <p
+            className="mx-4 md:p-8 border-2 p-2 w-72 cursor-pointer hover:text-coral"
+            href="/"
+            onClick={() => setIsHovering(true)}
+          >
+            Bienneville House
           </p>
+          {isHovering && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="absolute bg-pink text-base border-coral text-lg md:text-2xl border-2 w-4/5` md:w-3/5 bottom-0"
+            >
+              <div className="border-2 m-1 p-5">
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 1 }}
+                  onClick={() => setIsHovering(false)}
+                  className="px-4 pb-5"
+                >
+                  <p className="text-2xl md:text-4xl pb-5">Bienneville House</p>
+                  <p>
+                    Please call <br />
+                    (800) 535-7836
+                  </p>
+                  <p>and book with the King-von Rosenvinge block</p>
+                  <button
+                    className="border-b pt-5 transition ease-in-out hover:text-coral"
+                    onClick={() => setIsHovering(false)}
+                  >
+                    Close
+                  </button>
+                </motion.div>
+              </div>
+            </motion.div>
+          )}
         </div>
       </Parallax>
     </div>
