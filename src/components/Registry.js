@@ -3,7 +3,7 @@ import React from "react";
 function Registry() {
   return (
     <div id="registry" className="bg-flowers bg-fixed py-20 text-darkGreen ">
-      <div className="border-2 w-3/4 mx-auto bg-base border-olive">
+      <div className="border-2 md:w-3/4 mx-auto bg-base border-olive">
         <p className="text-5xl py-10">Registry</p>
         <svg
           className="md:w-1/6 w-1/2 mx-auto mb-10"
@@ -40,28 +40,38 @@ function Registry() {
             fill="#7B9A62"
           />
         </svg>
-        <div className="grid grid-cols-1 md:grid-cols-2">
+        <div className="grid md:grid-cols-2 ">
+          <p className="col-span-2 text-lg md:w-1/2 mx-auto px-4">
+            In lieu of a gift, please consider donating to the Michael J.
+            Foundation for Parkinsons Research
+          </p>
           <a
-            className="border-2 p-4 m-5 text-2xl hover:text-lightPink"
+            className="border-2 p-4 m-5 text-2xl col-span-2 hover:text-papaya hover:bg-white transition duration-500 ease-in-out"
+            href="https://www.heathceramics.com/apps/registry/anne-perry-s-wedding?shared_url=true"
+          >
+            Michael J. Fox Foundation
+          </a>
+          <a
+            className="border-2 p-4 col-span-2 md:col-span-1 m-5 text-2xl hover:text-papaya hover:bg-white transition duration-500 ease-in-out"
             href="https://www.heathceramics.com/apps/registry/anne-perry-s-wedding?shared_url=true"
           >
             Heath Ceramics
           </a>
           <a
-            className="border-2 p-4 m-5 text-2xl hover:text-lightPink"
+            className="border-2 p-4 col-span-2 md:col-span-1 m-5 text-2xl hover:text-papaya hover:bg-white transition duration-500 ease-in-out"
             href="https://nickeykehoe.com/apps/giftregistry/registry/233205"
           >
             Nickey Kehoe
           </a>
           <a
-            className="border-2 p-4 m-5 text-2xl hover:text-lightPink"
+            className="border-2 p-4 col-span-2 md:col-span-1 m-5 text-2xl hover:text-papaya hover:bg-white transition duration-500 ease-in-out"
             href="https://www.williams-sonoma.com/registry/59tktd9mkn/registry-list.html"
           >
             Williams Sonoma
           </a>
 
           <a
-            className="border-2 p-4 m-5 text-2xl hover:text-lightPink"
+            className="border-2 p-4 col-span-2 md:col-span-1 m-5 text-2xl hover:text-papaya hover:bg-white transition duration-500 ease-in-out"
             href="https://weezietowels.com/apps/giftregistry/registry/232742?sid=bqpN2HlY7RGswkbj%2F%2B1VuQ"
           >
             Weezie Towels
