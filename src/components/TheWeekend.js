@@ -67,7 +67,7 @@ function TheWeekend() {
                   <br />
                   New Orleans, LA, 70130
                   <br />
-                  6:00PM
+                  5:00PM
                 </p>
                 <p className="italic pb-4">Formal Attire</p>
                 <p className="italic py-4 md:w-2/4 mx-auto">

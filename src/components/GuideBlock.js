@@ -2,9 +2,10 @@ import React from "react";
 
 function GuideBlock({ title, items, footer = false }) {
   function item({ name, url, featured = false }, idx) {
-    let style = "py-4 hover:text-coral cursor-pointer";
+    let style = "py-4 hover:text-coral cursor-pointer transition duration-500";
     if (idx % 2 === 0 && items.length - 1 === idx) {
-      style = "py-4 col-span-2 hover:text-coral cursor-pointer";
+      style =
+        "py-4 col-span-2 hover:text-coral cursor-pointer transition duration-500";
     }
 
     return (

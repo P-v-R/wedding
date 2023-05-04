@@ -26,7 +26,7 @@ function BodyTwo() {
         >
           <Link
             to="/Lagniappe"
-            className="z-40 hover:border-b-2 hover:border-base cursor-pointer md:mx-14 border-b-2 border-lightPink my-auto text-base text-4xl"
+            className="z-40 hover:border-b-2 hover:border-base cursor-pointer md:mx-14 border-b-2 border-lightPink my-auto text-base text-4xl transition duration-500"
           >
             Places to stay. Things to do.
           </Link>
@@ -48,7 +48,7 @@ function BodyTwo() {
         >
           <Link
             to="/Lagniappe"
-            className="hover:border-b-2 hover:border-base cursor-pointer border-b-2 border-base text-base text-2xl"
+            className="hover:border-b-2 hover:border-base cursor-pointer border-b-2 border-base text-base text-2xl transition duration-500"
           >
             Places to stay. Things to do.
           </Link>

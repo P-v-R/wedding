@@ -18,7 +18,7 @@ function HomePage() {
       <div className="h-screen px-3">
         <div className="hidden lg:block md:pt-10 pt-4 bg-starpaper relative">
           <StarBgTwo />
-          <p className="text-4xl pt-24 mx-auto">Langiappe</p>
+          <p className="text-4xl pt-24 mx-auto">Lagniappe</p>
           <p className="text-3xl pt-2  mx-auto">
             <em>noun</em> | lan-YAP
           </p>
@@ -30,7 +30,7 @@ function HomePage() {
           <Turtle />
         </div>
         <div className="lg:hidden ">
-          <p className="text-3xl pt-24 mx-auto">Langiappe</p>
+          <p className="text-3xl pt-24 mx-auto">Lagniappe</p>
           <p className="text-xl pt-2  mx-auto">
             <em>noun</em> | lan-YAP
           </p>

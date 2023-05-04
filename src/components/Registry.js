@@ -41,31 +41,24 @@ function Registry() {
           />
         </svg>
         <div className="grid md:grid-cols-2 ">
-          <p className="col-span-2 text-lg md:w-1/2 mx-auto px-4">
-            In lieu of a gift, please consider donating to the Michael J.
-            Foundation for Parkinsons Research
-          </p>
-          <a
-            className="border-2 p-4 m-5 text-2xl col-span-2 hover:text-papaya hover:bg-white transition duration-500 ease-in-out"
-            href="https://www.heathceramics.com/apps/registry/anne-perry-s-wedding?shared_url=true"
-          >
-            Michael J. Fox Foundation
-          </a>
           <a
             className="border-2 p-4 col-span-2 md:col-span-1 m-5 text-2xl hover:text-papaya hover:bg-white transition duration-500 ease-in-out"
             href="https://www.heathceramics.com/apps/registry/anne-perry-s-wedding?shared_url=true"
+            target="_blank"
           >
             Heath Ceramics
           </a>
           <a
             className="border-2 p-4 col-span-2 md:col-span-1 m-5 text-2xl hover:text-papaya hover:bg-white transition duration-500 ease-in-out"
             href="https://nickeykehoe.com/apps/giftregistry/registry/233205"
+            target="_blank"
           >
             Nickey Kehoe
           </a>
           <a
             className="border-2 p-4 col-span-2 md:col-span-1 m-5 text-2xl hover:text-papaya hover:bg-white transition duration-500 ease-in-out"
             href="https://www.williams-sonoma.com/registry/59tktd9mkn/registry-list.html"
+            target="_blank"
           >
             Williams Sonoma
           </a>
@@ -73,8 +66,20 @@ function Registry() {
           <a
             className="border-2 p-4 col-span-2 md:col-span-1 m-5 text-2xl hover:text-papaya hover:bg-white transition duration-500 ease-in-out"
             href="https://weezietowels.com/apps/giftregistry/registry/232742?sid=bqpN2HlY7RGswkbj%2F%2B1VuQ"
+            target="_blank"
           >
             Weezie Towels
+          </a>
+          <p className="col-span-2 text-lg md:w-1/2 mx-auto  px-4">
+            In lieu of a gift, please consider donating to the Michael J.
+            Foundation for Parkinsons Research
+          </p>
+          <a
+            className="border-2 p-4 m-5 text-2xl col-span-2 md: mx-auto md:w-1/2 hover:text-papaya hover:bg-white transition duration-500 ease-in-out"
+            href="https://give.michaeljfox.org/give/421686/#!/donation/checkout"
+            target="_blank"
+          >
+            Michael J. Fox Foundation
           </a>
         </div>
         <div className="h-10"></div>

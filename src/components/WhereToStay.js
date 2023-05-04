@@ -31,14 +31,14 @@ function WhereToStay() {
         </p>
         <div className="flex justify-center mx-auto text-2xl relative">
           <a
-            className="mx-4 md:p-8 hover:text-coral border-2 p-2 cursor-pointer"
+            className="mx-4 md:p-8 hover:text-coral border-2 p-2 cursor-pointer transition duration-500"
             href="https://be.synxis.com/?adult=1&arrive=2023-10-20&chain=10237&child=0&config=MSYHM&currency=USD&depart=2023-10-22&group=KVR20J&hotel=27003&level=hotel&locale=en-US&rooms=1&theme=MSYHM"
             target="#"
           >
             The Monteleone
           </a>
           <p
-            className="mx-4 md:p-8 border-2 p-2 w-72 cursor-pointer hover:text-coral"
+            className="mx-4 md:p-8 border-2 p-2 w-72 cursor-pointer hover:text-coral transition duration-500"
             href="/"
             onClick={() => setIsHovering(true)}
           >
