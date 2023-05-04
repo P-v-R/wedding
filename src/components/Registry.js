@@ -45,6 +45,7 @@ function Registry() {
             className="border-2 p-4 col-span-2 md:col-span-1 m-5 text-2xl hover:text-papaya hover:bg-white transition duration-500 ease-in-out"
             href="https://www.heathceramics.com/apps/registry/anne-perry-s-wedding?shared_url=true"
             target="_blank"
+            rel="noreferrer"
           >
             Heath Ceramics
           </a>
@@ -52,6 +53,7 @@ function Registry() {
             className="border-2 p-4 col-span-2 md:col-span-1 m-5 text-2xl hover:text-papaya hover:bg-white transition duration-500 ease-in-out"
             href="https://nickeykehoe.com/apps/giftregistry/registry/233205"
             target="_blank"
+            rel="noreferrer"
           >
             Nickey Kehoe
           </a>
@@ -59,6 +61,7 @@ function Registry() {
             className="border-2 p-4 col-span-2 md:col-span-1 m-5 text-2xl hover:text-papaya hover:bg-white transition duration-500 ease-in-out"
             href="https://www.williams-sonoma.com/registry/59tktd9mkn/registry-list.html"
             target="_blank"
+            rel="noreferrer"
           >
             Williams Sonoma
           </a>
@@ -67,6 +70,7 @@ function Registry() {
             className="border-2 p-4 col-span-2 md:col-span-1 m-5 text-2xl hover:text-papaya hover:bg-white transition duration-500 ease-in-out"
             href="https://weezietowels.com/apps/giftregistry/registry/232742?sid=bqpN2HlY7RGswkbj%2F%2B1VuQ"
             target="_blank"
+            rel="noreferrer"
           >
             Weezie Towels
           </a>
@@ -78,6 +82,7 @@ function Registry() {
             className="border-2 p-4 m-5 text-2xl col-span-2 md: mx-auto md:w-1/2 hover:text-papaya hover:bg-white transition duration-500 ease-in-out"
             href="https://give.michaeljfox.org/give/421686/#!/donation/checkout"
             target="_blank"
+            rel="noreferrer"
           >
             Michael J. Fox Foundation
           </a>
