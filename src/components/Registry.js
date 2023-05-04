@@ -76,7 +76,7 @@ function Registry() {
           </a>
           <p className="col-span-2 text-lg md:w-1/2 mx-auto  px-4">
             In lieu of a gift, please consider donating to the Michael J.
-            Foundation for Parkinsons Research
+            Foundation for Parkinson's Research
           </p>
           <a
             className="border-2 p-4 m-5 text-2xl col-span-2 md: mx-auto md:w-1/2 hover:text-papaya hover:bg-white transition duration-500 ease-in-out"

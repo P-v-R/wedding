@@ -48,7 +48,7 @@ function BodyTwo() {
         >
           <Link
             to="/Lagniappe"
-            className="hover:border-b-2 hover:border-base cursor-pointer border-b-2 border-base text-base text-2xl transition duration-500"
+            className="hover:border-b-2 hover:border-base cursor-pointer border-b-2 border-base text-base text-3xl transition duration-500"
           >
             Places to stay. Things to do.
           </Link>
