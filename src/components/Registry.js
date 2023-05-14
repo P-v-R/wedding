@@ -51,29 +51,13 @@ function Registry() {
           </a>
           <a
             className="border-2 p-4 col-span-2 md:col-span-1 m-5 text-2xl hover:text-papaya hover:bg-white transition duration-500 ease-in-out"
-            href="https://nickeykehoe.com/apps/giftregistry/registry/233205"
+            href="https://www.zola.com/registry/anneandperry"
             target="_blank"
             rel="noreferrer"
           >
-            Nickey Kehoe
-          </a>
-          <a
-            className="border-2 p-4 col-span-2 md:col-span-1 m-5 text-2xl hover:text-papaya hover:bg-white transition duration-500 ease-in-out"
-            href="https://www.williams-sonoma.com/registry/59tktd9mkn/registry-list.html"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Williams Sonoma
+            Zola
           </a>
 
-          <a
-            className="border-2 p-4 col-span-2 md:col-span-1 m-5 text-2xl hover:text-papaya hover:bg-white transition duration-500 ease-in-out"
-            href="https://weezietowels.com/apps/giftregistry/registry/232742?sid=bqpN2HlY7RGswkbj%2F%2B1VuQ"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Weezie Towels
-          </a>
           <p className="col-span-2 text-lg md:w-1/2 mx-auto  px-4">
             In lieu of a gift, please consider donating to the Michael J.
             Foundation for Parkinson's Research
